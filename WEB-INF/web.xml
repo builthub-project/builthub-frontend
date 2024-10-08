@@ -44,8 +44,8 @@
       <url-pattern>/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-       <role-name>builthub-contributor</role-name>
-       <role-name>builthub-guest</role-name>
+       <role-name>role0</role-name>
+       <role-name>role1</role-name>
     </auth-constraint>
   </security-constraint>
 
@@ -69,7 +69,7 @@
     <description>
       The role that is required to access the site
     </description>
-    <role-name>builthub-guest</role-name>
+    <role-name>role2</role-name>
   </security-role>
 
 </web-app>
