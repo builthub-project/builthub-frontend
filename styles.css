@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://unpkg.com/leaflet@1.8.0/dist/leaflet.css");
+body {
+    margin: 0; 
+    font-family: "Hind Siliguri", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #838383;
+    background-color: #fff;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.builthub-info-snackbar {
+    background: rgb(16, 66, 51);
+    color: rgb(248, 173, 59);
+}
+
+.builthub-error-snackbar {
+    background: rgb(16, 66, 51);
+    color: red;
+}

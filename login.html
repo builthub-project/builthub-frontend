@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta name="google" content="notranslate" />
+
+    <link href="" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/BHFavicon.PNG" />
+
+    <title>BuiltHub's Authentication</title>
+
+    <link href="./assets/login.css" rel="stylesheet">
+
+    <style>
+        .centercontentonpage {
+            max-width: 500px;
+            margin: auto;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 200px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+            margin: 5px;
+        }
+        
+        input[type=text]:focus {
+            /*width: 100%;*/
+            width: 400px;
+        }
+        
+        input[type=password]:focus {
+            /*width: 100%;*/
+            width: 400px;
+        }
+        
+        input[type=submit],
+        input[type=reset] {
+            width: auto;
+            background-color: #123E31;
+            color: #FFA84A;
+            ;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover,
+        input[type=reset]:hover {
+            background-color: #FFA84A;
+            color: #123E31;
+        }
+        
+        h1,
+        h2,
+        p,
+        li a,
+        a,
+        h3 {
+            color: #FFA84A !important;
+        }
+        
+        #signInButton {
+            padding-right: 15px;
+            font-size: 15, 5px;
+        }
+        
+        #resetButton {}
+    </style>
+
+</head>
+
+<body>
+    <!-- Add your content of header -->
+    <header>
+        <nav class="navbar navbar-default active">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="https://builthub.eu/" title="builthub.eu">
+                        <img src="./assets/images/navlogoCaptur.PNG" class="navbar-logo-img" alt="" height="" width="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="centercontentonpage">
+        <img src="./assets/images/BHLogo.png" alt="builthub logo" />
+        <form method="POST" action="j_security_check">
+            <table cellspacing="5">
+                <tr>
+                    <th align="right">Username </th>
+                    <td align="left"><input type="text" name="j_username"></td>
+                </tr>
+
+                <tr>
+                    <th align="right">Password </th>
+                    <td align="left"><input type="password" name="j_password"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="signInButton"><input type="submit" value="Log In"></td>
+                    <td id="resetButton"><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer-container white-text-container">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <h3>Builthub</h3>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-7">
+
+                        </div>
+                        <div class="col-xs-12 col-sm-5">
+                            <p class="text-right">
+                                <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            navActivePage();
+            scrollRevelation('.reveal');
+        });
+    </script>-->
+
+ 
+    <script type="text/javascript" src="./assets/js/main.0cf8b554.js"></script>
+</body>
+
+</html>

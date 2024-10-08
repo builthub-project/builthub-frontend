@@ -1,0 +1,27 @@
+<div id="yasgui">
+
+    <div id="examples">
+
+        <form [formGroup]="sparqlForm">
+            <table>
+                <tbody>
+                    <tr>
+                        <th align="left" id="sample">
+                            <label for="dataset">
+                                Sample queries:
+                            </label>
+                        </th>
+                        <th align="rigth">
+                            <select id="dataset" formControlName="datasetSPQL">
+                                <option id="empty_option" ></option>
+                                <option id="option" attr.data-content="{{q | json}}" [title]="q.id" [value]="q.query" *ngFor="let q of availableQueries">{{q.title}}</option>
+                            </select>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    
+    </div>
+    
+</div>

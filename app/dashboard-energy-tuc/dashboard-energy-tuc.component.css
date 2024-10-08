@@ -1,0 +1,71 @@
+h1{
+    color:#FFA84A ;
+    background-color: #104233;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 35px;
+    text-align: center;
+    font-size: 35px !important;
+}
+
+.highcharts-point{
+    color: orange;
+    fill: orange;
+}
+
+#line{
+    text-align: center;
+}
+
+.gridTable{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+td{
+    color: black;
+    text-align: center;
+}
+
+th{
+    color:black;
+    text-align: center;
+}
+
+table.dataTable thead th{
+    text-align: center;
+}
+h3{
+    color:black;
+    height: 35px;
+}
+.mat-icon{
+    color:#104233;
+    
+}
+h2{
+    color:#FFA84A ;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 55px;
+    text-align: center;
+}
+
+#map{ 
+    height: 500px; 
+}
+
+.btnStyle {
+    cursor:pointer;
+    border-radius: 15px;
+    background-color: #104233; 
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED); 
+    border: 1px solid #104233; 
+    color: #FFFFFF;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    width:13%
+}
+

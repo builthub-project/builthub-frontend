@@ -1,0 +1,331 @@
+
+table{
+    margin-left: 20px;
+}
+
+th{
+    color: #838383;
+}
+
+button{
+    width: auto;
+    background-color: #123E31;
+    color: #FFA84A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input{
+    color: #838383
+}
+
+#upload{
+    margin-left: 500px;
+}
+
+table{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* SECTION */
+.section{
+    display: none;
+}
+
+.active{
+    display:block;
+}
+
+
+/* Successful */
+#message{
+    font-family: "Martel", "Times New Roman", Times, serif;
+}
+
+/* Error */
+#errorMessage{
+    font-family: "Martel", "Times New Roman", Times, serif;  
+}
+
+/* Successful or Error message */
+#title{
+    font-size: 20px;
+    color: #123E31;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    white-space: pre-wrap;
+    height: auto;
+}
+
+#subtitle{
+    font-size: 16px;
+    color: #FFA84A;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#return{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*  RESPONSIVE DESIGN  */
+/* Full HD w1920 h1080 + 2K w2048 h1080 */
+@media only screen and (min-width: 1800px) {
+    
+    th{
+        font-size: 21px;
+    }
+
+    select{
+        height: 30px;
+        width: 100%;
+        border-color: #838383;
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 21px;
+    }
+
+    button{
+        font-size: 21px;
+    }
+
+    #upload{
+        margin-left: 800px;
+    }
+
+    /* Successful or Error message  */
+    #title{
+        font-size: 24.8px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #subtitle{
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    #return{
+        margin-left: 20px;
+    }
+
+}
+
+/* 4K w3840 h2160 */
+@media only screen and (min-width: 2900px) {
+
+    th{
+        font-size: 30px;
+    }
+
+    select{
+        height: 50px;
+        width: 110%;
+        border-color: #838383;
+        font-size: 30px;
+    }
+
+    input{
+        font-size: 30px;
+    }
+
+    button{
+        font-size: 30px;
+    }
+
+    #upload{
+        margin-left: 1200px;
+    }
+
+    table{
+        margin-left: 40px;
+    }
+
+    /* Successful or Error message  */
+    #title{
+        font-size: 39px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+
+    #subtitle{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    #return{
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 3600px) {
+
+    th{
+        font-size: 50px;
+    }
+
+    select{
+        height: 70px;
+        width: 85%;
+        border-color: #838383;
+        font-size: 50px;
+    }
+
+    input{
+        font-size: 50px;
+    }
+
+    button{
+        font-size: 50px;
+    }
+
+    #upload{
+        margin-left: 1500px;
+    }
+
+    table{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    /* Successful or Error message  */
+    #title{
+        font-size: 50px;
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-top: 60px;
+    }
+
+    #subtitle{
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    p:last-child {
+        margin-bottom: 80px;
+    }
+
+    #return{
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+}
+
+
+/* 8K w7680 h4320 */
+@media only screen and (min-width: 4600px) {
+
+    th{
+        font-size: 60px;
+        height: 90px;
+    }
+
+    select{
+        height: 70px;
+        width: 100%;
+        border-color: #838383;
+        font-size: 60px;
+    }
+
+    input{
+        font-size: 60px;
+    }
+
+    button{
+        font-size: 59px;
+    }
+
+    #upload{
+        margin-left: 2000px;
+    }
+
+    table{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    /* Successful or Error message  */
+    #title{
+        font-size: 65px;
+        margin-top: 100px;
+    }
+
+    #subtitle{
+        font-size: 69px;
+        margin-top: 110px;
+    }
+
+    #return{
+        font-size: 60px;
+        margin-left: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 6000px) {
+
+    th{
+        font-size: 90px;
+        height: 90px;
+    }
+
+    select{
+        height: 120px;
+        width: 100%;
+        border-color: #838383;
+        font-size: 90px;
+    }
+
+    input{
+        font-size: 90px;
+    }
+
+    button{
+        font-size: 90px;
+    }
+
+    #upload{
+        margin-left: 3500px;
+        width: 450px;
+        height: 150px;
+    }
+
+    table{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    /* Successful or Error message  */
+    #title{
+        font-size: 100px;
+        margin-top: 120px;
+    }
+
+    #subtitle{
+        font-size: 100px;
+        margin-top: 200px;
+    }
+
+    p:last-child {
+        margin-bottom: 200px;
+    }
+
+    #return{
+        font-size: 100px;
+        margin-left: 60px;
+    }
+
+}

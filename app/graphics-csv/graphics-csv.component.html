@@ -1,0 +1,137 @@
+<div class="gridTable"></div>
+<h1 style="text-align: center">
+  Final energy consumption per person in residential buildings by energy carrier
+</h1>
+<mat-grid-list cols="1" rowHeight="150px">
+  <div [formGroup]="energyConsumption">
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Year</mat-label>
+        <mat-select
+          formControlName="ageSelected"
+          (selectionChange)="onChange($event, 'energy-year')"
+        >
+          <div *ngFor="let age of yearsList">
+            <mat-option [value]="age">{{ age }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+  </div>
+</mat-grid-list>
+<div id="container8-block">
+  <app-loader id="loader8"></app-loader>
+
+  <highcharts-chart
+    id="container8"
+    title=""
+    style="width: 100%; height: 400px; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions8"
+  >
+    ></highcharts-chart
+  >
+</div>
+
+<h1 style="text-align: center">
+  Final energy consumption per square meter in residential buildings by end use
+</h1>
+<div style="text-align: center; color: #000; margin-bottom: 10px">
+  <input type="checkbox" id="ukcheck" (change)="ukCheck($event, 'ukCheck')" />
+  <label style="margin-left: 5px" for="ukcheck"
+    >Exclude UK (EU27/EU28) for Specific final energy consumption
+  </label>
+</div>
+<div id="container22-block">
+  <app-loader id="loader22"></app-loader>
+  <highcharts-chart
+    id="container22"
+    style="width: 100%; height: 400px; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions22"
+  ></highcharts-chart>
+</div>
+
+<h1 style="text-align: center">
+  Final energy consumption per square meter in residential buildings by end use
+  (Percentages)
+</h1>
+<div style="text-align: center; color: #000; margin-bottom: 10px">
+  <input
+    type="checkbox"
+    id="ukcheckperc"
+    (change)="ukCheck($event, 'ukCheckPerc')"
+  />
+  <label style="margin-left: 5px" for="ukcheckperc"
+    >Exclude UK (EU27/EU28) for Specific final energy consumption (Percentages)
+  </label>
+</div>
+<div id="container23-block">
+  <app-loader id="loader23"></app-loader>
+  <highcharts-chart
+    id="container23"
+    style="width: 100%; height: 400px; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions23"
+  ></highcharts-chart>
+</div>
+
+<h1 style="text-align: center">
+  Final energy consumption per person in residential buildings by fuel
+</h1>
+
+<div id="container6-block">
+  <app-loader id="loader6"></app-loader>
+  <highcharts-chart
+    id="container6"
+    style="width: 100%; height: 400px; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions6"
+  ></highcharts-chart>
+</div>
+
+<mat-grid-list cols="2" rowHeight="150px">
+  <div [formGroup]="energyConsumptionForm" style="display: flex">
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Energy Use</mat-label>
+        <mat-select
+          formControlName="energySelected"
+          (selectionChange)="onChange($event, 'energy-use')"
+        >
+          <div *ngFor="let energy of energyList">
+            <mat-option [value]="energy">{{ energy }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Year</mat-label>
+        <mat-select
+          formControlName="ageSelected2"
+          (selectionChange)="onChange($event, 'consumption-age')"
+        >
+          <div *ngFor="let age of yearsListGraph_Ds016">
+            <mat-option [value]="age">{{ age }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+  </div>
+</mat-grid-list>
+
+<h1 style="text-align: center">
+  Final energy consumption per person in residential buildings by fuel
+  (Percentages)
+</h1>
+<div id="container7-block">
+  <app-loader id="loader7"></app-loader>
+
+  <highcharts-chart
+    id="container7"
+    style="width: 100%; height: 400px; display: block"
+    [Highcharts]="Highcharts"
+    [options]="chartOptions7"
+  ></highcharts-chart>
+</div>

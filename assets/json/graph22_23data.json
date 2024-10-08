@@ -1,0 +1,2199 @@
+{
+  "head": {
+    "vars": [
+      "region",
+      "location",
+      "ttype",
+      "val",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "region": {
+          "type": "literal",
+          "value": "-"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "189.90065"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "-"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "22.749813"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "-"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "727.6554"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "138.85619"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "30.973728"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "833.4203"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "40.00172"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "34.57577"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "424.82422"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "124.91364"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "26.552002"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "808.8533"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "198.69794"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "53.402954"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "752.4211"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "183.95467"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "20.697842"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "801.74286"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "188.01614"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "26.761396"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "819.88513"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "180.8621"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "37.264786"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "718.4021"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "157.24847"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "108.38579"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "739.66797"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "94.49899"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "58.237885"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "288.57205"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "150.12549"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "173.72426"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "657.159"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "125.16801"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "227.21405"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "643.4549"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "55.98115"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "130.31387"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "140.28177"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "130.42738"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "70.34085"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "630.1703"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "199.06773"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "67.77263"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "706.0102"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "140.10449"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "71.12294"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "419.21487"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "117.05401"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "25.290665"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "636.59985"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "319.92102"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "66.9753"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "893.8485"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "283.63837"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "58.780113"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "951.50525"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "291.7793"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "68.26903"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "950.7171"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "105.758194"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "10.148508"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "705.31287"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "110.60636"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "43.75248"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "669.0596"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "161.07933"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "55.732834"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "965.9358"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "99.78767"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "107.033844"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "804.5351"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "128.92422"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "61.137806"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "764.94196"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "149.81525"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "17.651936"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "682.8554"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "137.3351"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "50.346436"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "922.2902"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Domestic Hot Water"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "130.29387"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Cooling"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "43.997345"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "ttype": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Space Heating"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "536.6554"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      }
+    ]
+  }
+}

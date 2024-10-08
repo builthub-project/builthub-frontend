@@ -1,0 +1,7 @@
+.loader {
+  text-align: center;
+  padding: 20px 0 50px;
+}
+.loader img {
+  display: inline-block;
+}

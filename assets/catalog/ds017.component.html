@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>BUILTHUB Data Catalog</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descripción de la página…">
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+	<div class="dataset-container">
+		<h2>ZENSUS 2011</h2>
+		<p>This dataset contains disaggregated data concerning a building 
+		stock analysis for Germany, information about the occupancy of 
+		the buildings and socio/economic related data. Information 
+		concerning the type of heating systems used are reported too. 
+		The goal of the 2011 Census is to provide the most accurate 
+		snapshot possible of basic data on the countries population 
+		and the employment and housing conditions.</p>
+		
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset metadata</caption>
+		<tr>
+			<th class="table-header">Geo Info</th>
+			<th class="table-header">NUTS</th>
+			<th class="table-header">Measured Elements</th>
+			<th class="table-header">Units</th>
+			<th class="table-header">Time Ranges</th>
+			<th class="table-header">Building Types</th>
+		</tr>
+		<tr>
+			<td>Regions from Germany</td>
+			<td>NUTS 3 Level</td>
+			<td>Total, Residential Buildings, Residential Buildings 
+			(without residential homes), Residential homes, Other 
+			buildings with residential space,<br>
+			(Buildings;Dwellings;Households) built before 1919, 
+			built between 1919 and 1949, built between 1950 and 1959, 
+			built between 1960 and 1969, built between 1970 and 1979, 
+			built between 1980 and 1989, built between 1990 and 1999, 
+			built between 2000 and 2005, and built after 2006</td>
+			<td>Number</td>
+			<td>Different periods from before 1919 until 2006 and later</td>
+			<td>Builings, Dwellings, Huseholds</td>
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset database predicates</caption>
+		<tr>
+			<th class="table-header">Title</th>
+			<th class="table-header">Description</th>
+			<th class="table-header">Predicate (Fields' name)</th>
+			<th class="table-header">Range/Data Type</th>
+			<th class="table-header">Cardinality</th>
+			<th class="table-header">Content</th>
+		</tr>
+		<tr>
+			<th class="color_black">Record Type</th>
+			<td>Defines the type of the record. This type must   
+			be defined in a known ontology. Usually, the ontology
+			is specified with a prefix.                          </td>
+			<td>rdf:type</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>blthb:Dataset017</td>
+		</tr>
+		<tr>
+			<th class="color_black">Record Key</th>
+			<td>The primary key of the record.</td>
+			<td>dc:identifier / skos:notation</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"urn:uuid:83ae7b7278f5483ead8794a9c3b3a404"</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">Temporal Coverage</th>
+		</tr>
+		<tr>
+			<td>Refers to a temporal period that the Dataset    
+			covers. It is defined as an interval of time that is
+			defined by its start and end dates.                 </td>
+			<td>dcterms:temporal</td>
+			<td>dcterms:PeriodOfTime</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>This property contains the start of the period.</td>
+			<td>dcat:startDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"1980-01-01"^^xsd:date</td>
+		</tr>
+		<tr>
+			<td>This property contains the end of the period.</td>
+			<td>dcat:endDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"1989-12-31"^^xsd:date</td>
+		</tr>
+		<tr>
+			<th class="color_black">Belongs to Dataset</th>
+			<td>The dataset of this record</td>
+			<td>skos:broader</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>https://data.builthub.eu/resource/Dataset/17</td>
+		</tr>
+		<tr>
+			<th class="color_black">In Scheme</th>
+			<td>Unifies all the datasets and their predicates.</td>
+			<td>skos:inScheme</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>http://data.builthub.eu/datasets</td>
+		</tr>
+		<tr>
+			<th class="color_black">Spatial Coverage</th>
+			<td>This property refers to a geographic region that 
+			is covered by the Dataset. The EU Vocabularies Name   
+			Authority Lists must be used for continents, countries
+			and places that are in those lists.                   </td>
+			<td>dcat:spatial</td>
+			<td>dct:Location (One location) /<br>
+			co:Set (A group of locations, places, countries)</td>
+			<td>1..1</td>
+			<td>atold:DEU</td>
+		</tr>
+		<tr>
+			<th class="color_black">Inside NUTS boundaries</th>
+			<td>Indicates if the information is inside a NUTS boundaries.</td>
+			<td>blthb:hasNUTS</td>
+			<td>skos:Concept /<br>
+			co:Set (A group of NUTSs)</td>
+			<td>0..1</td>
+			<td>nuts:DE71D</td>
+		</tr>
+		<tr>
+			<th class="color_black">Building Type</th>
+			<td>Type of building which refers the record's data.</td>
+			<td>blthb:btype</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"Buildings"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black">Measured Element</th>
+			<td>The element/indicator which has been measured.</td>
+			<td>blthb:measuredElement</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"Buildings built between 1980 and 1989"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">QUDT Measurement</th>
+		</tr>
+		<tr>
+			<td>The magnitude and kind of the measurement
+			expressed using the QUDT specification.      </td>
+			<td>blthb:measurementQUDT</td>
+			<td>qudt:QuantityValue</td>
+			<td>1..1</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>qudt:numericValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"6441.0"^^xsd:float</td>
+		</tr>
+		<tr>
+			<td>The kind of the measurement (measurement unit)
+			expressed using the QUDT specification.           </td>
+			<td>qudt:unit</td>
+			<td>qudt:unit</td>
+			<td>0..1</td>
+			<td>unit:NUM</td>
+		</tr>
+		<tr>
+			<th class="color_black">UCUM Measurement</th>
+			<td>The magnitude and kind of the measurement
+			expressed using the UCUM specification.      </td>
+			<td>blthb:measurementUCUM</td>
+			<td>rdfs:Literal (ucum:ucum)</td>
+			<td>1..1</td>
+			<td>"6441.0 {#}"^^cdt:ucum</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Unit</th>
+			<td>The kind of measurement expressed using natural
+			language.                                          </td>
+			<td>blthb:measurementUnit</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"Number"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Value</th>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>blthb:measurementValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"6441.0"^^xsd:float</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+		<table class="dataframe table myTable">
+		<caption class="table-title">Indicators</caption>
+		<tr>
+			<th class="table-header" colspan="2">Indicators included in this dataset</th>
+		</tr>
+		<tr>
+			<th style="text-align:center" class="table-header">Indicator Name</th>
+			<th class="table-header">Measured Element</th>
+		</tr>
+		<tr>
+			<td>Number of buildings | Residential Sector</td>
+			<td>Total</td>
+		</tr>
+		<tr>
+			<td>Number of dwellings | Residential Sector</td>
+			<td>Residential Buildings</td>
+		</tr>
+		<tr>
+			<td>Number of dwellings | Residential Sector | Secondary residences</td>
+			<td>Residential Buildings (without residential homes)</td>
+		</tr>
+		<tr>
+			<td>Number of dwellings | Residential Sector | Permanently occupied</td>
+			<td>Residential homes</td>
+		</tr>
+		<tr>
+			<td> </td>
+			<td>Other buildings with residential space</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built before 1945</td>
+			<td>(Buildings;Dwellings;Households) built before 1919,<br>
+				built between 1919 and 1949</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built between 1945 and 1969</td>
+			<td>(Buildings;Dwellings;Households) built between 1950 and 1959,<br>
+				built between 1960 and 1969</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built between 1970 and 1979</td>
+			<td>(Buildings;Dwellings;Households) built between 1970 and 1979</td>
+		</tr><tr>
+			<td>Share of buildings | Residential Sector | Built between 1980 and 1989</td>
+			<td>(Buildings;Dwellings;Households) built between 1980 and 1989</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built between 1990 and 1999</td>
+			<td>(Buildings;Dwellings;Households) built between 1990 and 1999</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built between 2000 and 2010</td>
+			<td>(Buildings;Dwellings;Households) built between 2000 and 2005</td>
+		</tr>
+		<tr>
+			<td>Share of buildings | Residential Sector | Built after 2010</td>
+			<td>(Buildings;Dwellings;Households) built after 2006</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

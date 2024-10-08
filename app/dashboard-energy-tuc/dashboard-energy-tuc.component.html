@@ -1,0 +1,358 @@
+<!--------------- TUC 2 --------------->
+<br>
+<br>
+<h1> Territorial Unit Consumption </h1>
+<h2 style="text-align:center"> NUTS0 Consumption </h2>
+<mat-grid-list cols="3" rowHeight="60px" >
+    <div [formGroup]="tuc2">
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Country</mat-label>
+                <mat-select  [(ngModel)] = "selectedCountry2" formControlName="country2" (selectionChange)="updateTable2()" multiple>
+                    <div *ngFor="let country of countries" >
+                        <mat-option *ngIf="country != ''" [value]="country">{{country}}</mat-option>
+                        
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+        
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Consumption Type</mat-label>
+                <mat-select  
+                [(ngModel)] = "selectedTopic" 
+                formControlName="consumption2" 
+                (selectionChange)="updateTable2()">
+                <div *ngFor="let consumption of consumptions">
+                    <mat-option  *ngIf="consumption != ''" [value]="consumption" >{{consumption}}</mat-option>
+                </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Years</mat-label>
+                    <mat-select 
+                    [(ngModel)] = "selectedYear2"
+                    [formControl]="yearsControl2"
+                    (selectionChange)="updateTable2()" multiple>
+                    <div *ngFor="let year of years">
+                        <mat-option *ngIf="year != ''" [value]="year">{{year}}</mat-option>
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+    
+    </div>
+    
+</mat-grid-list>
+
+<div class="gridTable">
+    <h3 id="alert2"><b>Please, select at least one option for each filter</b></h3>
+    <div id="allGraph2">
+        <button mat-icon-button [matMenuTriggerFor]="menu2">
+            <mat-icon>get_app</mat-icon>
+        </button>
+        <mat-menu #menu2="matMenu">
+            <button mat-menu-item (click)="downloadData('text%2Fcsv','2')">
+                <span>CSV</span>
+            </button>
+        </mat-menu>
+        <highcharts-chart id="chart-container2" style="width: 100%; height: 100%; display: block;" [Highcharts]="Highcharts" [options]="chartOptions2"></highcharts-chart> 
+    </div>
+        
+    
+    
+
+</div>
+
+<!--------------- TUC 3 --------------->
+<br>
+<br>
+<br>
+<br>
+<h2 style="text-align:center"> NUTS3 Territorial-Unit Consumption </h2>
+<mat-grid-list cols="4" rowHeight="60px" >
+    <div [formGroup]="tuc3">
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Country</mat-label>
+                <mat-select [(value)]="selectedCountry3" formControlName="country3" (selectionChange)="onCountryChange3($event)">
+                    <div *ngFor="let country of countries" >
+                        <mat-option *ngIf="country != ''" [value]="country">{{country}}</mat-option>
+                        
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Region</mat-label>
+                
+                <mat-select 
+                    [formControl]="regionControl3"
+                    
+                    (selectionChange)="updateTable3()"
+                    multiple>
+          
+                    <div *ngFor="let region of regions3">
+                        <mat-option  *ngIf="region != ''" [value]="region">{{region}}</mat-option>
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+        
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Consumption Type</mat-label>
+                <mat-select   
+                [(ngModel)] = "selectedTopic"
+                formControlName="consumption3" 
+                (selectionChange)="updateTable3()">
+                <div *ngFor="let consumption of consumptions">
+                    <mat-option  *ngIf="consumption != ''" [value]="consumption" >{{consumption}}</mat-option>
+                </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Years</mat-label>
+                    <mat-select 
+                    [(ngModel)] = "selectedYear3"
+                    [formControl]="yearsControl3"
+                    (selectionChange)="updateTable3()" multiple>
+                    <div *ngFor="let year of years">
+                        <mat-option *ngIf="year != ''" [value]="year">{{year}}</mat-option>
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        
+
+    
+    </div>
+    
+    
+</mat-grid-list>
+<div class="gridTable">
+   
+    <h3 id="alert3"><b>Please, select at least one option for each filter</b></h3>
+    <div id="allGraph3">
+        <button mat-icon-button [matMenuTriggerFor]="menu3">
+            <mat-icon>get_app</mat-icon>
+        </button>
+        <mat-menu #menu3="matMenu">
+            <button mat-menu-item (click)="downloadData('text%2Fcsv','3')">
+                <span>CSV</span>
+            </button>
+        </mat-menu>
+        <highcharts-chart id="chart-container3" style="width: 100%; height: 100%; display: block;" [Highcharts]="Highcharts" [options]="chartOptions3"></highcharts-chart> 
+    </div>
+    
+
+</div>
+
+
+<!--------------- TUC 1 --------------->
+<br>
+<br>
+<br>
+<br>
+<h2 style="text-align:center"> Territorial-Unit Consumption </h2>
+<mat-grid-list cols="6" rowHeight="60px" >
+    <div [formGroup]="tuc1">
+
+        <mat-grid-tile>
+            <mat-form-field  appearance="fill">
+                <mat-label>Country</mat-label>
+                <mat-select  [(value)]="selectedCountry" formControlName="country" (selectionChange)="onCountryChange($event)">
+                    <div   *ngFor="let country of countries" >
+                        <mat-option id="prueba" *ngIf="country != ''" [value]="country">{{country}}</mat-option>
+                        
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>NUTS Level</mat-label>
+                <mat-select [(value)]="selectedNuts" formControlName="nut"  (selectionChange)="onNUTSLevelChange($event)">
+                    <div *ngFor="let nut of listNuts">
+                        <mat-option [value]="nut">{{nut}}</mat-option>
+                    </div>
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>NUTS3</mat-label>
+                <mat-select [formControl]="provinceControl" (selectionChange)="onNut3Change()" [disabled]="true">
+                    <div *ngFor="let element of listNut3">
+                        <mat-option [value]="element">{{element}}</mat-option>
+                    </div>
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+        
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Region</mat-label>
+                
+                <mat-select 
+                [formControl]="regionControl"
+                [(ngModel)] = "selectedRegion"
+                    (selectionChange)="onRegionChange($event)"
+                    multiple>
+                    <mat-option value="all">Select all</mat-option>
+                    <div *ngFor="let region of regions">
+                        <mat-option  *ngIf="region != ''" [value]="region">{{region}}</mat-option>
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+        
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Consumption Type</mat-label>
+                <mat-select   
+                formControlName="consumption" 
+                (selectionChange)="onConsumptionChange($event)">
+                <div *ngFor="let consumption of consumptions">
+                    <mat-option  *ngIf="consumption != ''" [value]="consumption" >{{consumption}}</mat-option>
+                </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile>
+            <mat-form-field appearance="fill">
+                <mat-label>Years</mat-label>
+                    <mat-select 
+                    [formControl]="yearsControl"
+                    (selectionChange)="onYearsChange($event)" multiple>
+                    <div *ngFor="let year of years">
+                        <mat-option *ngIf="year != ''" [value]="year">{{year}}</mat-option>
+                    </div>
+                    
+                </mat-select>
+            </mat-form-field>
+        </mat-grid-tile>
+
+        
+
+    
+    </div>
+    
+    
+
+    
+    
+</mat-grid-list>
+
+
+
+
+<div class="gridTable">
+    <br>
+    <h3 id="alert1"><b>Please, select at least one option for each filter</b></h3>
+    
+    <div id="map"></div> 
+    <br>
+    <input type="button" id="Btn1" value="Default View" (click)="loadMap1()" class="btnStyle span3" />
+ 
+    <br>
+    <br>
+    <br>
+    <button mat-icon-button [matMenuTriggerFor]="menu1_1">
+        <mat-icon>get_app</mat-icon>
+    </button>
+    <mat-menu #menu1_1="matMenu">
+        <button mat-menu-item (click)="downloadData('text%2Fcsv','1_1')">
+            <span>CSV</span>
+        </button>
+    </mat-menu>
+    <highcharts-chart id="chart-container" style="width: 100%; height: 100%; display: block;" [Highcharts]="Highcharts" [options]="chartOptions"></highcharts-chart> 
+    
+    <button mat-icon-button [matMenuTriggerFor]="menu1_2">
+        <mat-icon>get_app</mat-icon>
+    </button>
+    <mat-menu #menu1_2="matMenu">
+        <button mat-menu-item (click)="downloadData('text%2Fcsv','1_2')">
+            <span>CSV</span>
+        </button>
+    </mat-menu>
+    
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th> Country </th>
+            <th> Topic Type </th>
+            <th> Consumption </th>
+            <th> Unit </th>
+            <th> Territorial - Unit Consumption </th>
+            <th> Region </th>
+            <th> NUTS Lvl Region</th>
+            <th> Population </th>
+            <th> Country Population</th>
+            <th> Year </th>
+  
+          </tr>
+        </thead>
+        <tbody> 
+          <tr *ngFor="let data of dataTable1 | paginate: { itemsPerPage: 13, currentPage: p, totalItems: total }">
+            <td>{{ data.country }}</td>
+            <td>{{ data.topic }}</td>
+            <td>{{ data.value_consumption }}</td>
+            <td>{{ data.unit }}</td>
+            <td>{{ data.tuc }}</td>
+            <td>{{ data.region }}</td>
+            <td>{{ data.nut_lvl }}</td>
+            <td>{{ data.nut_population }}</td>
+            <td>{{ data.country_population }}</td>
+            <td>{{ data.year }}</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <div id="pagination">
+        <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+      </div>
+    
+   
+     
+
+</div> 
+ 
+
+
+
+
+
+
+
+    
+
+
+
+
+

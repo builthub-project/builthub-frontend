@@ -1,0 +1,743 @@
+{
+  "head": {
+    "vars": [
+      "region",
+      "location",
+      "val",
+      "average",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "region": {
+          "type": "literal",
+          "value": "-"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "940.3059"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "940.3059"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "499.40173"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "936.529"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "960.319"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1003.2503"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1004.5221"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1006.39545"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "continental"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1034.6626"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "920.7257"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "7"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "326.5768"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "441.30902"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "630.44226"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "830.9385"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "972.8505"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "981.0103"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "995.83704"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "mediterranean"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1005.30225"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "773.0333"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "778.94446"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "821.2196"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "823.4184"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1280.7449"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1293.9237"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "nordic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1310.7654"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1051.5028"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "710.94666"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "850.3227"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "955.004"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1011.35657"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1109.9717"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "region": {
+          "type": "literal",
+          "value": "oceanic"
+        },
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1182.748"
+        },
+        "average": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "970.0583"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+<div mat-dialog-title>BuiltHub</div>
+
+<div mat-dialog-content>
+    <form [formGroup]="saveQueryForm">
+
+        <table>
+
+            <tbody>
+
+                <tr>
+
+                    <th  id="idLabel" align="left">
+                        <label for="idQuery">
+                            Id
+                        </label>
+                    </th>
+                    <th align="rigth">
+                        <input ngxInputRegulate ngxir-pattern="^[A-z0-9_:\-]*$" id="idQuery" formControlName="idQuery">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th align="left">
+                        <label for="titleQuery">
+                            Title
+                        </label>
+                    </th>
+                    <th align="rigth">
+                        <input type="text" id="titleQuery"  formControlName="titleQuery">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th align="left">
+                        <label for="descriptionQuery">
+                            Description
+                        </label>
+                    </th>
+                    <th align="rigth">
+                        <textarea type="text" id="descriptionQuery" formControlName="descriptionQuery"></textarea>
+                    </th>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </form>
+
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button (click)="onCancel()">Cancel</button>
+    <button mat-button (click)="onSave()">Save</button>
+</div>

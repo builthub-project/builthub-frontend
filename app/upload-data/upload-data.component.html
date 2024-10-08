@@ -1,0 +1,70 @@
+<div class="section active" id="form">
+
+    <form [formGroup]="uploadForm">
+
+        <table>
+
+            <tbody>
+
+                <tr>
+
+                    <th align="left">
+                        <label for="dataset">
+                            Dataset:
+                        </label>
+                    </th>
+
+                    <th align="left">
+                        <select id="dataset" formControlName="dataset" (change)="onChange($event)">
+                            <option id="option" [value]="option.number" *ngFor="let option of optionsDataset">{{option.name}}</option>
+                        </select>
+                    </th>
+
+                </tr>
+    
+                <tr>
+
+                    <th align="rigth">
+                        <label for="files">
+                            Files:
+                        </label>
+                    </th>
+
+                    <th align="left">
+                        <input id="file" name="file" type="file" [accept]=selectAccept  multiple  (change)="onFileSelected($event)" /> 
+                    </th>
+                    
+                </tr>
+            
+            </tbody>
+
+        </table>
+        
+        <button id="upload" (click)="onUpload()">Upload</button>
+        
+    </form> 
+
+</div>
+
+
+<div class="section" id="message">
+
+    <button id="return" (click)="changeSection('form')">Return</button>
+    
+    <p id="title">{{ dataName }}</p>
+    
+    <p id="subtitle" *ngFor="let file of nameFiles">{{ file }}</p> 
+    
+</div>
+
+
+<div class="section" id="errorMessage">
+    
+    <button id="return" (click)="changeSection('form')">Return</button>
+    
+    <p id="title">Error</p>
+    
+    <p id="subtitle"> Bad Request</p>
+    
+</div>
+

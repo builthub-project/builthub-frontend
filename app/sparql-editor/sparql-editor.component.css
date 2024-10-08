@@ -1,0 +1,142 @@
+#sample{
+    color: #838383;
+    font-size: 14px;
+}
+
+table{
+    margin-left: 20px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+select{
+    border-color: #838383;
+}
+
+#examples{
+    height: 50px;
+}
+
+#saveMessage{
+    height: 4px;
+    display: none;
+    text-align: center;
+    color: #FFA84A;
+    font-size: 14px;
+}
+
+#saveMessageError{
+    height: 4px;
+    display: none;
+    text-align: center;
+    color: #FFA84A;
+    font-size: 14px;
+}
+
+#deleteMessage{
+    height: 4px;
+    display: none;
+    text-align: center;
+    color: #FFA84A;
+    font-size: 14px;
+}
+
+#deleteMessageError{
+    height: 4px;
+    display: none;
+    text-align: center;
+    color: #FFA84A;
+    font-size: 14px;
+}
+
+
+/*  RESPONSIVE DESIGN  */
+/* Full HD w1920 h1080 + 2K w2048 h1080 */
+@media only screen and (min-width: 1800px) {
+
+    #sample{
+        font-size: 18px;
+    }
+
+    table{
+        margin-top: 50px;
+    }
+
+    select{
+        width: 170%;
+    }
+
+}
+
+
+/* 4K w3840 h2160 */
+@media only screen and (min-width: 2900px) {
+
+    #sample{
+        font-size: 26px;
+    }
+
+    table{
+        margin-top: 50px;
+    }
+
+    select{
+        width: 250%;
+    }
+
+}
+
+
+@media only screen and (min-width: 3600px) {
+
+    #sample{
+        font-size: 30px;
+    }
+
+    table{
+        margin-top: 50px;
+    }
+
+    select{
+        width: 320%;
+        height: 25px;
+    }
+
+}
+
+
+/* 8K w7680 h4320 */
+@media only screen and (min-width: 4600px) {
+
+    #sample{
+        font-size: 40px;
+    }
+
+    table{
+        margin-top: 50px;
+    }
+
+    select{
+        width: 320%;
+        height: 30px;
+    }
+
+}
+
+
+@media only screen and (min-width: 6000px) {
+
+    #sample{
+        font-size: 60px;
+    }
+
+    table{
+        margin-top: 50px;
+    }
+
+    select{
+        width: 600%;
+        height: 40px;
+    }
+
+}

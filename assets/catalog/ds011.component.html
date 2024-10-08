@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>BUILTHUB Data Catalog</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descripción de la página…">
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+	<div class="dataset-container">
+		<h2>FP7 iNSPiRe project: building stock analysis</h2>
+		<p>The building stock analysis and data gathering exercise 
+		focused its attention on published literature and other sources, 
+		aiming to extrapolate information about the current residential 
+		and office building stock. Among the differentdata gathered it 
+		is possible to mention number and floor area of residential 
+		buildings/dwellings and office buildings / construction by type 
+		and age distribution / typology / facade and glazing types / 
+		geometry / average floor area / number of floors / U-value, thermal
+		characteristic and performance of the buildings, by age / ownership
+		and tenure i.e. number of social housing, owner occupied, private 
+		renting etc. / energy consumption and demand in terms of both, 
+		total and individual end-use including space heating, domestic hot 
+		water, cooling, lighting; fuel and heating system types and comfort
+		requirements. Interest has been set onlighting-related data.</p>
+		
+		<br>
+		
+		<table class="default">
+		<caption class="table-title">Dataset metadata</caption>
+		<tr>
+			<th class="table-header">Geo Info</th>
+			<th class="table-header">NUTS</th>
+			<th class="table-header">Measured Elements</th>
+			<th class="table-header">Units</th>
+			<th class="table-header">Time Ranges</th>
+		</tr>
+		<tr>
+			<td>The 27 countries from european union + UK</td>
+			<td>NUTS 0 Level</td>
+			<td>Total floor space in EU,  Heated floor area,         
+			Cooled floor area, Average space heating consumption,    
+			Total space heating consumption, Average DHW consumption,
+			Total DHW consumption, Average space cooling consumption,
+			Total cooling consumption, Average lighting consumption, 
+			Total lighting consumption                               </td>
+			<td>Mm2, kWh/m2/yr, TWh/yr</td>
+			<td>Period from 2004 to 2014</td>
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<table class="default">
+		<caption class="table-title">Dataset database predicates</caption>
+		<tr>
+			<th class="table-header">Title</th>
+			<th class="table-header">Description</th>
+			<th class="table-header">Predicate (Fields' name)</th>
+			<th class="table-header">Range/Data Type</th>
+			<th class="table-header">Cardinality</th>
+			<th class="table-header">Content</th>
+		</tr>
+		<tr>
+			<th class="color_black">Record Type</th>
+			<td>Defines the type of the record. This type must   
+			be defined in a known ontology. Usually, the ontology
+			is specified with a prefix.                          </td>
+			<td>rdf:type</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>blthb:Dataset011</td>
+		</tr>
+		<tr>
+			<th class="color_black">Record Key</th>
+			<td>The primary key of the record.</td>
+			<td>dc:identifier / skos:notation</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"urn:uuid:83ae7b7278f5483ead8794a9c3b3a404"</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">Temporal Coverage</th>
+		</tr>
+		<tr>
+			<td>Refers to a temporal period that the Dataset    
+			covers. It is defined as an interval of time that is
+			defined by its start and end dates.                 </td>
+			<td>dcterms:temporal</td>
+			<td>dcterms:PeriodOfTime</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>This property contains the start of the period.</td>
+			<td>dcat:startDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"2004-01-01"^^xsd:date</td>
+		</tr>
+		<tr>
+			<td>This property contains the end of the period.</td>
+			<td>dcat:endDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"2014-12-31"^^xsd:date</td>
+		</tr>
+		<tr>
+			<th class="color_black">Belongs to Dataset</th>
+			<td>The dataset of this record</td>
+			<td>skos:broader</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>https://data.builthub.eu/resource/Dataset/11</td>
+		</tr>
+		<tr>
+			<th class="color_black">In Scheme</th>
+			<td>Unifies all the datasets and their predicates.</td>
+			<td>skos:inScheme</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>http://data.builthub.eu/datasets</td>
+		</tr>
+		<tr>
+			<th class="color_black">Spatial Coverage</th>
+			<td>This property refers to a geographic region that  
+			is covered by the Dataset. The EU Vocabularies Name   
+			Authority Lists must be used for continents, countries
+			and places that are in those lists.                   </td>
+			<td>dcat:spatial</td>
+			<td>dct:Location (One location) /<br>
+			co:Set (A group of locations, places, countries)</td>
+			<td>1..1</td>
+			<td>atold:AUT</td>
+		</tr>
+		<tr>
+			<th class="color_black">Inside NUTS boundaries</th>
+			<td>Indicates if the information is inside a NUTS boundaries.</td>
+			<td>blthb:hasNUTS</td>
+			<td>skos:Concept /<br>
+			co:Set (A group of NUTSs)</td>
+			<td>1..1</td>
+			<td>nuts:AT</td>
+		</tr>
+		<tr>
+			<th class="color_black">Measured Element</th>
+			<td>The element/indicator which has been measured.</td>
+			<td>blthb:measuredElement</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"Average Space Cooling Consumption"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">QUDT Measurement</th>
+		</tr>
+		<tr>
+			<td>The magnitude and kind of the measurement<br>
+			expressed using the QUDT specification.      </td>
+			<td>blthb:measurementQUDT</td>
+			<td>qudt:QuantityValue</td>
+			<td>1..1</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>qudt:numericValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"6.0"^^xsd:float</td>
+		</tr>
+		<tr>
+			<td>The kind of the measurement (measurement unit)
+			expressed using the QUDT specification.           </td>
+			<td>qudt:unit</td>
+			<td>qudt:unit</td>
+			<td>0..1</td>
+			<td>unit:NUM</td>
+		</tr>
+		<tr>
+			<th class="color_black">UCUM Measurement</th>
+			<td>The magnitude and kind of the measurement
+			expressed using the UCUM specification.      </td>
+			<td>blthb:measurementUCUM</td>
+			<td>rdfs:Literal (ucum:ucum)</td>
+			<td>1..1</td>
+			<td>"6.0 kW/h/m2/a"^^cdt:ucum</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Unit</th>
+			<td>The kind of measurement expressed using natural
+			language.                                          </td>
+			<td>blthb:measurementUnit</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"kWh/m2/yr"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Value</th>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>blthb:measurementValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"6.0"^^xsd:float</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+		<table class="dataframe table myTable">
+		<caption class="table-title">Indicators</caption>
+		<tr>
+			<th class="table-header" colspan="3">Indicators included in this dataset</th>
+		</tr>
+		<tr>
+			<th style="text-align:center" class="table-header" colspan="2">Indicator Name</th>
+			<th class="table-header">Measured Element</th>
+		</tr>
+		<tr>
+			<td style="font-weight:bold">Residential sector</td>
+			<td style="font-weight:bold">Non-Residential Sector</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Floor area of dwellings | Residential Sector</td> 
+			<td>Total floor area of non-residential sector</td>
+			<td>Total floor space in EU</td>
+		</tr>
+		<tr>
+			<td>Heated Floor Area | Residential Sector</td> 
+			<td>Heated Floor Area | Non-Residential Sector</td>
+			<td>Heated floor area</td>
+		</tr>
+		<tr>
+			<td>Cooled Floor Area | Residential Sector</td>
+			<td>Cooled Floor Area | Non-Residential Sector</td>
+			<td>Cooled floor area</td>
+		</tr>
+		<tr>
+			<td>Specific Energy | Residential Sector | Space Heating | per m²</td> 
+			<td>Specific Energy | Non-Residential Sector | Space Heating | per m²</td>
+			<td>Average space heating consumption</td>
+		</tr>
+		<tr>
+			<td>Final Energy | Residential Sector | Space Heating</td> 
+			<td>Final Energy | Non-Residential Sector | Space Heating</td>
+			<td>Total space heating consumption</td>
+		</tr>
+		<tr>
+			<td>Specific Energy | Residential Sector | per m²</td> 
+			<td>Specific Energy | Non-Residential Sector | per m²</td>
+			<td>Average DHW consumption</td>
+		</tr>
+		<tr>
+			<td>Final Energy | Residential Sector</td> 
+			<td>Final Energy | Non-Residential Sector</td>
+			<td>Total DHW consumption</td>
+		</tr>
+		<tr>
+			<td>Specific Energy | Residential Sector | Space Cooling | per m²</td> 
+			<td>Specific Energy | Non-Residential Sector | Space Cooling | per m²</td>
+			<td>Average space cooling consumption</td>
+		</tr>
+		<tr>
+			<td>Final Energy | Residential Sector | Space Cooling</td> 
+			<td>Final Energy | Non-Residential Sector | Space Cooling</td>
+			<td>Total cooling consumption</td>
+		</tr>
+		<tr>
+			<td>Specific Energy | Residential Sector | Lighting | per Dwelling</td> 
+			<td>Specific Energy | Non-Residential Sector | Lighting | per Dwelling</td>
+			<td>Average lighting consumption</td>
+		</tr>
+		<tr>
+			<td>Final Energy | Residential Sector | Lighting</td>
+			<td>Final Energy | Non-Residential Sector | Lighting</td>
+			<td>Total lighting consumption</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+	</div>
+</body>
+</html>

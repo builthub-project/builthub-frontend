@@ -1,0 +1,66 @@
+/* Introduction */
+h1{
+    color:#FFA84A ;
+    background-color: #104233;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 7px;
+}
+
+p ,ul{
+    color: black;
+    font-size: 23px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: normal;
+    text-align: justify;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-grid-tile-header{
+    color:#FFA84A ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mat-grid-tile .mat-grid-tile-header {
+    background: transparent;
+    color:#FFA84A ;
+    display:block;
+}
+
+/* Table */
+.table{
+    margin-right: 2%;
+    margin-left: 2%;
+   margin-bottom: 7%;
+}
+
+td{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+th{
+    color:white;
+    text-align: center;
+    background-color: rgb(18, 62, 49);
+    font-size: 20px;
+}
+
+table.dataTable thead th{
+    text-align: center;
+}
+
+/* Map */
+#map1{  
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+

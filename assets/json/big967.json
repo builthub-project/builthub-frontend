@@ -1,0 +1,3149 @@
+{
+  "head": {
+    "vars": [
+      "location",
+      "val",
+      "siec"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "178.43973"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "138.3292"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "133.20097"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "130.92722"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "173.91362"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "123.16282"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "151.6476"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "134.35295"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "351.3581"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "204.40002"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "131.0396"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "139.32341"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "102.23615"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "142.59773"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "94.2811"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "73.88041"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "89.65277"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "128.1844"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "144.71532"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "116.22608"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "66.56038"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "110.62766"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "57.50729"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "86.03763"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "141.26965"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "133.70012"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "368.6209"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "133.95027"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Electricity"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "87.141464"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1.448112"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "43.9375"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "26.910376"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "91.18786"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "278.53488"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "246.6608"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "288.4953"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "19.158796"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "47.783543"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "4.9127812"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "46.529068"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "22.777554"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "191.3218"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "159.52081"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "16.696054"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "95.599686"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.08440563"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "36.261536"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "74.10682"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "35.52068"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "250.93001"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "4.062567"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Heat"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "159.24289"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "286.24347"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "10.891811"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "112.63914"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "168.55939"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "106.04043"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "43.587517"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "4.7963486"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "169.16682"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "269.59097"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "35.84795"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "285.7965"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "120.32968"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "269.57843"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "57.6688"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "57.59323"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "401.23376"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "373.45303"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "95.83927"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "27.769453"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "130.30992"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "205.49123"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "50.816425"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "64.11828"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1.9435198"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "359.85193"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Natural gas"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "105.809235"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "199.90843"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "2.8386588"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "24.658688"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "127.05093"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "4.2106953"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "34.920338"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "6.965385"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "54.29059"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "64.65352"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "143.0724"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "107.543846"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "7.5515337"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "240.83563"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "33.030094"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "27.59687"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "21.286707"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "190.17278"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "31.91074"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "2.1004713"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "17.10731"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "39.67065"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "16.253798"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1.2124807"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "60.115826"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "51.08738"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "18.643394"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "36.27701"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Oil and petroleum products (excluding biofuel portion)"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.7143498"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "37.42676"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "5.1274548"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Other fuels n.e.c."
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "223.10632"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "59.648426"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "103.08651"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "253.39687"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "112.975555"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "205.92928"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "181.45032"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "285.5808"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "320.84515"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "135.3572"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "99.87943"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "95.645706"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "131.57095"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "14.8061905"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "108.81435"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "265.88287"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "173.453"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "31.407434"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "28.344608"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "30.052898"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "72.98161"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "103.19995"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "156.90704"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "112.90621"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "220.39081"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "63.741474"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "79.68431"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "31.184498"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Renewables and biofuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "2.1917627"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "3.9995477"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "14.625262"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.65902954"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "64.80523"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.93350524"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.35589096"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "4.1732354"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.53733546"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "7.2030025"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "31.551289"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "2.4131794"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "11.342551"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.37568703"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.05385824"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "131.10814"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "2.076652"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "5.237917"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.05081642"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1.3815886"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.0"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "6.866311"
+        },
+        "siec": {
+          "type": "literal",
+          "value": "Solid fossil fuels"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+<div class="principal" [style.height.px]="getKnowageHeight">
+  <div id="menu" class="menu">
+    <div class="menu-trigger">
+      <mat-toolbar class="toolbar">
+        <mat-toolbar-row *ngIf="!isOpen">
+          <mat-icon
+            id="navigate"
+            (click)="isOpen = !isOpen"
+            target="KnowageFrame"
+            >navigate_next</mat-icon
+          >
+        </mat-toolbar-row>
+
+        <mat-toolbar-row>
+          <h3>Graphs</h3>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row *ngFor="let i of dashboard">
+          <a target="KnowageFrame" href="{{ i.link }}">
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row style="width: 100%; height: 100%"> </mat-toolbar-row>
+
+        <mat-toolbar-row>
+          <h3>Stories</h3>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row *ngFor="let i of storylines">
+          <a *ngIf="i.link" href="{{ i.link }}" target="KnowageFrame">
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+          <a
+            *ngIf="i.routerLink"
+            [routerLink]="[i.routerLink]"
+            target="KnowageFrame"
+          >
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row id="benchmark-nav">
+          <h3>Benchmark</h3>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row *ngFor="let i of benchmark">
+          <a *ngIf="i.link" href="{{ i.link }}" target="KnowageFrame">
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+          <a
+            *ngIf="i.routerLink"
+            [routerLink]="[i.routerLink]"
+            target="KnowageFrame"
+          >
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row style="width: 100%; height: 100%"> </mat-toolbar-row>
+
+        <mat-toolbar-row>
+          <h3>More</h3>
+        </mat-toolbar-row>
+
+        <mat-toolbar-row *ngFor="let i of data">
+          <a target="KnowageFrame" href="{{ i.link }}">
+            <mat-icon id="icon" svgIcon="{{ i.icon }}"></mat-icon>
+          </a>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+
+    <div>
+      <div id="side-menu" class="side-menu" *ngIf="isOpen" [@sideMenu]>
+        <div style="height: 3px"></div>
+
+        <h2>
+          Dashboard
+          <mat-icon (click)="isOpen = !isOpen">navigate_before</mat-icon>
+        </h2>
+        <p>visualizations by topic</p>
+
+        <div class="menu-item" *ngFor="let t of dashboard">
+          <a target="KnowageFrame" href="{{ t.link }}">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.subtitle }}</p>
+            <p></p
+          ></a>
+        </div>
+
+        <div class="menu-close" (click)="isOpen = !isOpen">
+          <i class="gg-push-chevron-left-o"></i>
+        </div>
+
+        <div id="separacion"></div>
+        <h2>Storylines</h2>
+        <p>visualizations and text</p>
+
+        <div class="menu-item" *ngFor="let t of storylines">
+          <a target="KnowageFrame" href="{{ t.link }}">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.subtitle }}</p>
+            <p></p
+          ></a>
+        </div>
+        <div id="separacion"></div>
+        <h2>Benchmark</h2>
+        <p>compare your building</p>
+
+        <div class="menu-item" *ngFor="let t of benchmark">
+          <a target="KnowageFrame" href="{{ t.link }}">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.subtitle }}</p>
+            <p></p
+          ></a>
+        </div>
+
+        <div id="separacion" style="height: 1.5%"></div>
+
+        <h2>Data map</h2>
+        <p>and more</p>
+
+        <div class="menu-item" *ngFor="let t of data">
+          <a target="KnowageFrame" href="{{ t.link }}">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.subtitle }}</p>
+            <p></p
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="knowage" [style.height.px]="getKnowageHeight">
+    <iframe
+      title="KnowageFrame"
+      name="KnowageFrame"
+      id="KnowageFrame"
+      (load)="uploadDone()"
+      src="/dashboard-emissions"
+    >
+    </iframe>
+    <!--
+        <iframe title="KnowageFrame" name="KnowageFrame" id="KnowageFrame"
+            src="localhost/knowage/public/servlet/AdapterHTTP?ACTION_NAME=EXECUTE_DOCUMENT_ACTION&OBJECT_LABEL=EUBuildingAreas&TOOLBAR_VISIBLE=false&ORGANIZATION=DEFAULT_TENANT&NEW_SESSION=true"
+            frameborder="0">
+        </iframe>
+        <script>
+            iFrameResize({ log: true }, '#KnowageFrame')
+        </script>
+    -->
+  </div>
+</div>

@@ -1,0 +1,135 @@
+<br>
+<br>
+<h3><b>Please select at least one training dataset</b></h3>
+<mat-grid-list cols="4" rows="15" rowHeight="60px" >
+    <div [formGroup]="machineForm">
+   
+        <mat-grid-tile colspan="4" rowspan="1">
+            <mat-form-field appearance="fill">
+                <mat-label>Training dataset</mat-label>
+                    <mat-select [(ngModel)] = "selectedTraining"  formControlName="trainingDataset" (selectionChange)="onFilterChange()">
+                        <div *ngFor="let training of trainingList" >
+                            <mat-option *ngIf="training != ''" [value]="training">{{training}}</mat-option>
+                        </div>
+                    </mat-select>
+                
+                <!-- 
+                <mat-select formControlName="trainingDataset" (selectionChange)="onFilterChange()" multiple>
+                    <mat-option value="prueba 1">Prueba 1</mat-option>
+                    <mat-option value="prueba 2">Prueba 2</mat-option>
+                    <mat-option value="prueba 3">Prueba 3</mat-option>
+                </mat-select>
+                 -->
+            </mat-form-field>
+            
+            
+        </mat-grid-tile>
+
+        <mat-grid-tile id="table1" colspan="4" rowspan="11" style="height: auto; width: auto;"> 
+            <div class="container">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Objective areas</th>
+                        <th>Description</th>
+                        <th>Aggregation level / Building category</th>
+                        <th>Algorithm</th>
+                        <th>Algorithm description</th>
+                        <th>Streangth</th>
+                        <th>Weakness</th>
+                        <th>Reference</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let data of dataTable1">
+                          <td>{{ data.thematic }}</td>
+                          <td>{{ data.reference }}</td>
+                          <td>{{ data.research }}</td>
+                          <td>{{ data.method }}</td>
+                          <td>{{ data.aggregation }}</td>
+                          <td>{{ data.prediction }}</td> 
+                          <td>{{ data.training }}</td>
+                          <td>{{ data.ref }}</td>
+                        </tr>
+                    </tbody>
+                    <!-- 
+                    <tbody>
+                        <tr>
+                            <td>prueba</td>
+                            <td>prueba</td>
+                            <td>prueba</td>
+                            <td>prueba</td>
+                            <td>prueba</td>
+                            <td>prueba</td>
+                            <td>prueba</td> 
+                            <td>prueba</td>
+                        </tr>
+                    </tbody>
+                -->
+                    
+                  </table>
+                  
+            </div>
+            
+            </mat-grid-tile>
+
+
+    </div>
+</mat-grid-list>
+<!-- 
+<mat-grid-list cols="4" rowHeight="60px" >
+    <div [formGroup]="machineForm2">
+   
+        <mat-grid-tile colspan="4" rowspan="1">
+            <mat-form-field appearance="fill">
+                <mat-label>Training dataset</mat-label>
+                    <mat-select [(ngModel)] = "selectedTraining2"  formControlName="trainingDataset2" (selectionChange)="onFilterChange2()">
+                        <div *ngFor="let training2 of trainingList2" >
+                            <mat-option *ngIf="training2 != ''" [value]="training2">{{training2}}</mat-option>
+                        </div>
+                    </mat-select>
+                
+              
+            </mat-form-field>
+            
+            
+        </mat-grid-tile>
+
+        <mat-grid-tile id="table12" colspan="4" rowspan="11" style="height: auto; width: auto;"> 
+            <div class="container">
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Objective areas</th>
+                        <th>Description</th>
+                        <th>Aggregation level / Building category</th>
+                        <th>Algorithm</th>
+                        <th>Algorithm description</th>
+                        <th>Streangth</th>
+                        <th>Weakness</th>
+                        <th>Reference</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let data2 of dataTable12">
+                          <td>{{ data2.thematic }}</td>
+                          <td>{{ data2.reference }}</td>
+                          <td>{{ data2.research }}</td>
+                          <td>{{ data2.method }}</td>
+                          <td>{{ data2.aggregation }}</td>
+                          <td>{{ data2.prediction }}</td> 
+                          <td>{{ data2.training }}</td>
+                          <td>{{ data2.ref }}</td>
+                        </tr>
+                    </tbody>
+                    
+                    
+                  </table>
+                  
+            </div>
+            
+            </mat-grid-tile>
+
+
+    </div>
+</mat-grid-list> -->
