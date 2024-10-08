@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>BUILTHUB Data Catalog</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descripción de la página…">
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+	<div class="dataset-container">
+		<h2>EDGAR (Emissions Database for Global Atmospheric Research) CO2 Emissions</h2>
+		<p>Carbon Dioxide (CO2) emissions by country and sector 
+		(Buildings, Transport, Other industrial combustion, Power Industry 
+		and other sectors) have been collected for the years between 
+		1970 and 2018 and are reported expressed in MtCO2/year.</p>
+		
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset metadata</caption>
+		<tr class="trborder">
+			<th class="table-header">Geo Info</th>
+			<th class="table-header">NUTS</th>
+			<th class="table-header">Measured Elements</th>
+			<th class="table-header">Units</th>
+			<th class="table-header">Time Ranges</th>
+			<th class="table-header">Sectors</th>
+		</tr>
+		<tr class="trborder">
+			<td>Countries worldwide</td>
+			<td>NUTS 0 Level</td>
+			<td>CO2 totals, CO2 by sector, CO2 per GDP, CO2 per capita,
+			GHG totals, GHG by sector, GHG per GDP, GHG per capita</td>
+			<td>MtCO2, tCO2, MtCO2eq, tCO2eq</td>
+			<td>Divided by years starting in 1970 until 2018</td>
+			<td>Power industry, Buildings, Other industrial combustion,
+			Other sectors, Transport</td>
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset database predicates</caption>
+		<tr>
+			<th class="table-header">Title</th>
+			<th class="table-header">Description</th>
+			<th class="table-header">Predicate (Fields' name)</th>
+			<th class="table-header">Range/Data Type</th>
+			<th class="table-header">Cardinality</th>
+			<th class="table-header">Content</th>
+		</tr>
+		<tr>
+			<th class="color_black">Record Type</th>
+			<td>Defines the type of the record. This type must   
+			be defined in a known ontology. Usually, the ontology
+			is specified with a prefix.                          </td>
+			<td>rdf:type</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>blthb:Dataset028</td>
+		</tr>
+		<tr>
+			<th class="color_black">Record Key</th>
+			<td>The primary key of the record.</td>
+			<td>dc:identifier / skos:notation</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"urn:uuid:83ae7b7278f5483ead8794a9c3b3a404"</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">Temporal Coverage</th>
+		</tr>
+		<tr>
+			<td>Refers to a temporal period that the Dataset    
+			covers. It is defined as an interval of time that is
+			defined by its start and end dates.                 </td>
+			<td>dcterms:temporal</td>
+			<td>dcterms:PeriodOfTime</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>This property contains the start of the period.</td>
+			<td>dcat:startDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"1982-01-01"^^xsd:date</td>
+		</tr>
+		<tr>
+			<td>This property contains the end of the period.</td>
+			<td>dcat:endDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"1982-12-31"^^xsd:date</td>
+		</tr>
+		<tr>
+			<th class="color_black">Belongs to Dataset</th>
+			<td>The dataset of this record</td>
+			<td>skos:broader</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>https://data.builthub.eu/resource/Dataset/28</td>
+		</tr>
+		<tr>
+			<th class="color_black">In Scheme</th>
+			<td>Unifies all the datasets and their predicates.</td>
+			<td>skos:inScheme</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>http://data.builthub.eu/datasets</td>
+		</tr>
+		<tr>
+			<th class="color_black">Spatial Coverage</th>
+			<td>This property refers to a geographic region that 
+			is covered by the Dataset. The EU Vocabularies Name   
+			Authority Lists must be used for continents, countries
+			and places that are in those lists.                   </td>
+			<td>dcat:spatial</td>
+			<td>dct:Location (One location) /<br>
+			co:Set (A group of locations, places, countries)</td>
+			<td>1..1</td>
+			<td>atold:SVN</td>
+		</tr>
+		<tr>
+			<th class="color_black">Inside NUTS boundaries</th>
+			<td>Indicates if the information is inside a NUTS boundaries.</td>
+			<td>blthb:hasNUTS</td>
+			<td>skos:Concept /<br>
+			co:Set (A group of NUTSs)</td>
+			<td>0..1</td>
+			<td>nuts:SI</td>
+		</tr>
+		<tr>
+			<th class="color_black">Measured Element</th>
+			<td>The element/indicator which has been measured.</td>
+			<td>blthb:measuredElement</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"GHGbySector"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">QUDT Measurement</th>
+		</tr>
+		<tr>
+			<td>The magnitude and kind of the measurement
+			expressed using the QUDT specification.      </td>
+			<td>blthb:measurementQUDT</td>
+			<td>qudt:QuantityValue</td>
+			<td>1..1</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>qudt:numericValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"3.737410306930542"^^xsd:float</td>
+		</tr>
+		<tr>
+			<td>The kind of the measurement (measurement unit)
+			expressed using the QUDT specification.           </td>
+			<td>qudt:unit</td>
+			<td>qudt:unit</td>
+			<td>0..1</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<th class="color_black">UCUM Measurement</th>
+			<td>The magnitude and kind of the measurement
+			expressed using the UCUM specification.      </td>
+			<td>blthb:measurementUCUM</td>
+			<td>rdfs:Literal (ucum:ucum)</td>
+			<td>1..1</td>
+			<td>"3.737410306930542 MtCO2eq"^^cdt:ucum</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Unit</th>
+			<td>The kind of measurement expressed using natural
+			language.                                          </td>
+			<td>blthb:measurementUnit</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"MtCO2eq"^^xsd:string</td>
+		</tr>
+		<tr>
+			<th class="color_black">Literal Measurement Value</th>
+			<td>The magnitude of the measurement expressed using
+			a decimal number.                                   </td>
+			<td>blthb:measurementValue</td>
+			<td>rdfs:Literal (xsd:float)</td>
+			<td>1..1</td>
+			<td>"3.737410306930542"^^xsd:float</td>
+		</tr>
+		<tr>
+			<th class="color_black">Sector</th>
+			<td> </td>
+			<td>blthb:sector</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"Power Industry"^^xsd:string</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

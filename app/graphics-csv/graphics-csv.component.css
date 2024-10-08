@@ -1,0 +1,17 @@
+h1 {
+  color: #ffa84a;
+  background-color: #104233;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5px 0;
+  line-height: 24px;
+}
+
+.highcharts-point {
+  color: orange;
+  fill: orange;
+}
+
+#line {
+  text-align: center;
+}

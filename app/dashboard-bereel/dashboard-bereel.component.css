@@ -1,0 +1,118 @@
+#allNav{
+    display:block;
+    height: 1% !important;
+}
+
+#allFooter{
+    display:block;   
+}
+
+h1{
+    color:#FFA84A ;
+    background-color: #104233;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 35px;
+    text-align: center;
+}
+
+h2{
+    color:#FFA84A ;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 35px;
+    text-align: center;
+}
+
+h3{
+    color:black;
+    height: 35px;
+}
+.header{
+    height: 1% !important;
+}
+
+.highcharts-point{
+    color: orange;
+    fill: orange;
+}
+
+td{
+    color: black;
+    text-align: center;
+}
+
+th{
+    color:black;
+    text-align: center;
+}
+
+table.dataTable thead th{
+    text-align: center;
+}
+table.dataTable tfoot th, table.dataTable tfoot td{
+    text-align: center;
+}
+
+
+select{
+    color: black
+}
+
+.gridTable{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.form-check-label{
+    color: black
+}
+
+#map1_3{ 
+    height: 600px; 
+}
+
+.form-check{ 
+    float:left;
+    display:table-column;
+    width:20%;
+
+}
+
+
+.main-box{
+    width: 100%;
+}
+
+.mat-radio-button{
+    color: black;
+}
+
+.mat-radio-group{
+    margin-left: center;
+}
+
+#alert2 , #alert3{
+    text-align: center;
+}
+
+
+.mat-icon{
+    color:#104233;
+    
+}
+
+#button1 {
+    cursor:pointer;
+    border-radius: 15px;
+    background-color: #104233; 
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED); 
+    border: 1px solid #104233; 
+    color: #FFFFFF;
+    padding: 4px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+    width:1%
+}
+

@@ -1,0 +1,24 @@
+h3{
+    color:black;
+    height: 35px;
+    text-align: center;
+}
+
+td{
+    color: black;
+    text-align: center;
+}
+
+th{
+    color:white;
+    text-align: center;
+    background-color: rgb(18, 62, 49);
+}
+
+table.dataTable thead th{
+    text-align: center;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td{
+    text-align: center;
+}

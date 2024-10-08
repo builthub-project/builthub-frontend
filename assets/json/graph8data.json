@@ -1,0 +1,348 @@
+{
+  "head": {
+    "vars": [
+      "location",
+      "val"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Sweden"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.71982217"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Luxembourg"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.751374"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Czechia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.6579211"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovakia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.48499227"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.6955392"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.52848154"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Lithuania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5179247"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Romania"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.39935613"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Estonia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.71808094"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Netherlands"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5385824"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Croatia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.54919136"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.47919637"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Hungary"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5808872"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "United Kingdom"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5721926"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Slovenia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5081642"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5875473"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.5931516"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Denmark"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.7525935"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Spain"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.31399742"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Greece"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.38381103"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Austria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.7557802"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Latvia"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.618764"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Belgium"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.6895772"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Finland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1.0204997"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Portugal"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.28135213"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Malta"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.20495017"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Cyprus"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.41398153"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Bulgaria"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "0.30854985"
+        }
+      }
+    ]
+  }
+}

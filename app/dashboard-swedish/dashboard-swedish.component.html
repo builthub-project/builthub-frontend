@@ -1,0 +1,490 @@
+<!-- Introduction -->
+<br>
+<h1> Machine Learning Analysis for Swedish Renovation Strategies </h1>
+
+<mat-grid-list cols="4" rows="50" rowHeight="172px" >
+
+    <!-- Introduction -->
+    <mat-grid-tile colspan="2" rowspan="4">
+      <p style="padding-left: 0%;margin-right: 0%;margin-left: 7%;">Energy used in buildings accounts for 40% of total energy use in the European Union (EU). Following the decarbonization process set out in the European Green Deal, all Member States established long-term renovation strategies to facilitate the transformation of existing buildings into nearly zero-energy buildings. In Sweden, a significant part of the multifamily building stock was built between 1945 and 1975, and many of these buildings are facing significant renovation needs today. To facilitate these needs, machine learning (ML) methods can be used. Several studies have focused on using ML to enrich building databases with various building features and Google Street View to collect data. This dashboard visualizes how ML algorithms were applied to support the Swedish long-term renovation strategy.</p>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="4">
+      <img src="\assets\swedish\figure-introduction.jpg"  style="text-align: center; height: 70%; width: 90%;  margin-right: 5%">
+    </mat-grid-tile>
+
+
+
+    <!-- Figure 1:  Share of the multifamily building stock 1945–1975 in each EPC rating A–G -->
+    <mat-grid-tile colspan="2" rowspan="5">
+      
+      <mat-grid-tile-header style="text-align: center; height: 200px;">
+        <h2 id=""><b> Share of the multifamily building stock 1945–1975 in each EPC rating A–G</b> </h2>
+      </mat-grid-tile-header>
+
+      <img src="\assets\swedish\figure1.jpg"  style="text-align: center; height: 60%; width: auto; padding-right: 5px;">
+      
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="5">
+      
+      
+      <p style="margin-left: 1px;">The Swedish government initiated the construction of new buildings of high quality in the 1940s with the aim to provide adequate housing for all. The construction peaked between 1965–1975 when more than 100,000 dwellings, apartments as well as single-family houses were built per year. However, buildings from this period are now facing increasing needs for refurbishment and improvements in energy efficiency. The EPC ratings of the multifamily building stock 1945–1975 can be seen in the image, which shows that the majority of the buildings have an EPC rating of E or F.</p>
+      
+    </mat-grid-tile>
+
+
+
+    <!-- Figure 2: Representative building types 1945–1975: (a) slab block from 1945–1960; 
+                                                            (b) slab block from 1960–1975; 
+                                                            (c) panel block and 
+                                                   (d) tower block -->
+    <mat-grid-tile colspan="4" rowspan="4">
+
+        <mat-grid-tile-header style="text-align: center; height: 250px; margin-top: -0,5%;">
+            <h2 id=""><b>Representative building types 1945–1975: (1st) slab block from 1945–1960;  (2nd) slab block from 1960–1975;  (3rd) panel block and (4th) tower block</b> </h2>
+        </mat-grid-tile-header>
+        
+        <img src="\assets\swedish\figure2-1.JPG" style="height: auto; width: 25%;padding-right: 5px;padding-left: 10px;">
+        <img src="\assets\swedish\figure2-2.JPG" style="height: auto; width: 25%;padding-right: 5px;padding-left: 5px;">
+        <img src="\assets\swedish\figure2-3.JPG" style="height: auto; width: 25%;padding-right: 5px;padding-left: 5px;">
+        <img src="\assets\swedish\figure2-4.JPG" style="height: 90%; width: 25%;padding-right: 10px;padding-left: 5px;">
+
+    </mat-grid-tile>
+
+
+    <mat-grid-tile colspan="4" rowspan="2">
+      <p style="margin-left: 7%; margin-right: 7%;">
+        The main division of multi-family buildings of this period is based on the appearance and size of the building, where three main types of buildings are usually considered: slab blocks, panel blocks, and tower blocks. Ocular observations were made in Google Street View of 476 EPCs that were sampled from the total of 50,000 EPCs 1945-1975. Sampling was conducted as a weighted random sampling, where the probability of each EPC being selected was determined based on the area of the building that the EPC represented. In addition, due to the underrepresentation of certain building types (tower blocks) in the sample data, observations were made for an additional 41 manually selected EPCs. However, some observations were not possible due to lack of coverage in Google Street View. Thus, these EPCs were removed, resulting in a total of 514 observations broken down in the table.
+      </p>
+    </mat-grid-tile>
+
+
+    <!-- Table 5 -->
+    <mat-grid-tile colspan="2" rowspan="4">
+     
+        <table class="table table-bordered" style="border-top-color: white; height: 90%;">
+          
+            <thead>
+              <tr>
+                <th colspan="3" style="color:#FFA84A !important; font-size: 20.5px !important; height:  50px !important; text-align: center; background-color: white; border: 0 !important;">
+                  A specification of the classifications of the 514 observations conducted in Google Street View
+                 
+                </th>
+              </tr>
+              <tr valign="middle">
+                <th>Observed Building Characteristic</th>
+                <th> Number of Observations</th>
+                <th> Share of Observations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="middle">
+                <td>Building type</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr valign="middle">
+                <td>Slab block</td>
+                <td>342</td>
+                <td>63.0%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Panel block</td>
+                <td>81</td>
+                <td>15.8%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Tower block</td>
+                <td>36</td>
+                <td>7.00%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Rowhouse</td>
+                <td>32</td>
+                <td>6.23%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Other</td>
+                <td>23</td>
+                <td>4.47%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Total</td>
+                <td>514</td>
+                <td>100%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Not brick façade</td>
+                <td>297</td>
+                <td>57.8%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Eaves overhang</td>
+                <td>215</td>
+                <td>41.8%</td>
+              </tr>
+              <tr valign="middle">
+                <td>Eaves overhang and not brick façade</td>
+                <td>117</td>
+                <td>22.8%</td>
+              </tr>
+              
+            </tbody>
+            
+          </table>
+    </mat-grid-tile>
+
+    <!-- Figure 5-->
+    <mat-grid-tile colspan="2" rowspan="4">
+
+      <mat-grid-tile-header style="text-align: center; height: 200px;">
+          <h2 id=""><b>Visualisation of how construction year (x axis) and number of stories (y axis) correlate with building type.</b> </h2>
+      </mat-grid-tile-header>
+      
+      <img src="\assets\swedish\figure5.png">
+
+  </mat-grid-tile>
+
+
+
+    <!-- Map -->
+    <mat-grid-tile colspan="4" rowspan="4" style="height: 90%; width: 90%;">
+      
+        <div id="map1"></div> 
+        
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="2" style="height: 90%; width: 90%;">
+      <p style="margin-left: 7%; margin-right: 7%;">
+        The geographical distribution of the 514 observations is shown in the map. The dots show all multifamily buildings constructed between 1945 and 1975, whereas the black crosses mark the multifamily buildings that were observed in Google Street View. It can be seen that the studied multifamily building stock is distributed all across Sweden in a way that reflects the population density of the country. The observations show a similar pattern, indicating that they constitute a geographically representative sample.
+      </p>
+    </mat-grid-tile>
+
+
+
+    <!-- Table 2 -->
+    <mat-grid-tile colspan="2" rowspan="3">
+
+        <mat-grid-tile-header style="text-align: center; height: 25%;">
+            <h2><b>Percental energy savings for each building type and energy retrofitting package according to the reference study</b></h2>
+        </mat-grid-tile-header>
+
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Building Type</th>
+                <th>Package 1 (%)</th>
+                <th>Package 2 (%)</th>
+                <th>Package 3 (%)</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Slab block, 1945–1960</td>
+                <td>14.2</td>
+                <td>25.2</td>
+                <td>63.8</td>
+              </tr>
+              <tr>
+                <td>Slab block, 1960–1975</td>
+                <td>9.7</td>
+                <td>25.6</td>
+                <td>59.1</td>
+              </tr>
+              <tr>
+                <td>Tower block</td>
+                <td>17.6</td>
+                <td>25.4</td>
+                <td>63.6</td>
+              </tr>
+              <tr>
+                <td>Panel block</td>
+                <td>8.5</td>
+                <td>23.7</td>
+                <td>54.6</td>
+              </tr>
+
+            </tbody>
+            
+          </table>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="6">
+      <div style="margin-bottom: 15%;">
+        <p>
+          For this study, a reference with tailored energy retrofitting packages for the Swedish multifamily building stock 1945–1975 have been used. For each building type there are three available packages (1–3) which entail different costs and energy savings (low to high). The packages must be applied in successive order, meaning that Package 2 requires Package 1 to have been conducted, and Package 3 requires both Package 1 and Package 2 to have been conducted.
+        </p>
+  
+        <ul>
+          <li>In Package 1, a number of measures that aim at optimising the operation of the building are undertaken.</li>
+          <li>In Package 2, components such as pumps and fans are changed to more effective counterparts, and additional insulation is added in the attic and to existing windows.</li>
+          <li>Package 3 contains the most extensive measures, including a new ventilation system with heat exchange from exhaust air, a change of windows, and 10 cm additional insulation on the building envelope.</li>
+        </ul>
+  
+        <p>
+            The energy savings and the associated costs for each of the energy retrofitting packages can be seen in the tables above.
+        </p>
+      </div>
+      
+      
+    </mat-grid-tile>
+
+    <!-- Table 3 -->
+    <mat-grid-tile colspan="2" rowspan="3">
+
+        <mat-grid-tile-header style="text-align: center; height: 25%;">
+            <h2><b>Marginal costs for each building type and energy retrofitting package according to the reference study</b></h2>
+        </mat-grid-tile-header>
+
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Building Type</th>
+                <th>Package 1 (€/m2)</th>
+                <th>Package 2 (€/m2)</th>
+                <th>Package 3 (€/m2)</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Slab block, 1945–1960</td>
+                <td>6.0</td>
+                <td>115</td>
+                <td>398</td>
+              </tr>
+              <tr>
+                <td>Slab block, 1960–1975</td>
+                <td>5.1</td>
+                <td>147</td>
+                <td>426</td>
+              </tr>
+              <tr>
+                <td>Tower block</td>
+                <td>3.9</td>
+                <td>112</td>
+                <td>435</td>
+              </tr>
+              <tr>
+                <td>Panel block</td>
+                <td>2.5</td>
+                <td>120</td>
+                <td>437</td>
+              </tr>
+
+            </tbody>
+            
+          </table>
+
+    </mat-grid-tile>
+
+    
+
+
+
+    <!-- Table 7 -->
+    <mat-grid-tile colspan="2" rowspan="3">
+
+        <mat-grid-tile-header style="text-align: center;">
+            <h2><b>Details for four of the considered models for prediction of building type</b></h2>
+        </mat-grid-tile-header>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr valign="middle">
+                    <th rowspan="3">Model</th>
+                    <th colspan="2">Overall Accuracy (%)</th>
+                    <th colspan="5"> Specific Accuracy (%)</th>
+                </tr>
+                <tr valign="middle">
+                    <th>Cross-Validation</th>
+                    <th>Testing Data</th>
+                    <th>Slab Blocks</th>
+                    <th>Panel Blocks</th>
+                    <th>Towe Blocks</th>
+                    <th>Rowhouses</th>
+                    <th>Other</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="middle">
+                    <td>SVM1 (Chosen model)</td>
+                    <td>88.5</td>
+                    <td>88.9</td>
+                    <td>95.2</td>
+                    <td>94.4</td>
+                    <td>71.4</td>
+                    <td>85.7</td>
+                    <td>0</td>
+                </tr>
+                <tr valign="middle">
+                    <td>SVM2</td>
+                    <td>89.3</td>
+                    <td>87.9</td>
+                    <td>98.4</td>
+                    <td>88.9</td>
+                    <td>71.4</td>
+                    <td>57.1</td>
+                    <td>0</td>
+                </tr>
+                <tr valign="middle">
+                    <td>LR1</td>
+                    <td>88.0</td>
+                    <td>87.9</td>
+                    <td>93.7</td>
+                    <td>88.9</td>
+                    <td>85.7</td>
+                    <td>85.7</td>
+                    <td>0</td>
+                </tr>
+                <tr valign="middle">
+                    <td>LR2</td>
+                    <td>85.7</td>
+                    <td>87.9</td>
+                    <td>95.2</td>
+                    <td>88.9</td>
+                    <td>85.7</td>
+                    <td>71.4</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+            
+          </table>
+
+    </mat-grid-tile>
+
+
+
+    <!-- Table 8 -->
+    <mat-grid-tile colspan="2" rowspan="3">
+
+        <mat-grid-tile-header style="text-align: center;">
+            <h2><b>Details for four of the considered models for prediction of building type</b></h2>
+        </mat-grid-tile-header>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr valign="middle">
+                    <th>Building Characteristic</th>
+                    <th>Features in Selected Mode</th>
+                    <th>Machine Learning Model</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr valign="middle">
+                    <td>Building type</td>
+                    <td>Number of stories<br>Construction year<br>Heated space per story and address<br>Number of apartments per address </td>
+                    <td>SVM</td>
+                    <td>88.9</td>
+                </tr>
+                <tr valign="middle">
+                    <td valign="middle">Eaves overhang + not brick facade</td>
+                    <td>Construction year<br>Number of apartments<br>Number of stairwells per apartment<br>Area code </td>
+                    <td>SVM</td>
+                    <td>72.5</td>
+                </tr>
+            </tbody>
+          </table>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="2" style="margin-top: -70px;">
+
+      <p>
+        From the sample it is intended to create a model that predicts the type of building to know what type of rebruifshment package to be applied to it. In the search for the optimal model, two types of supervised ML models are considered for classification problems. The model types considered in this study were logistic regression (LR) and support vector machines (SVM).
+        The table above (left) shows the four ML models that were considered for building type prediction, the results of which are shown for each building type. It can be seen from the table on the right that the building type can be predicted with an accuracy close to 90%. Facade material and eave overhang can be predicted with an accuracy of approximately 68%, but in combination, these features can be predicted with an accuracy of 72.5%.  Therefore, apart from the model that predicts the building type from its characteristics, the combined model was chosen, as the two building characteristics were to be used to determine the suitability of the additional facade insulation.
+        The validation showed an accuracy of 90.0% for the building type, which is close to the accuracy obtained in the tests. For the adequacy of additional facade insulation, the validation showed an accuracy of 63.2%, lower than that obtained in the tests. However, the relatively small size of the validation sample makes it difficult to draw important conclusions from these results.  
+      </p>
+      
+    </mat-grid-tile>
+
+
+
+    <!-- Figure 6:   The predicted distribution of building types in the multifamily building stock from 1945–
+                      1975. N/A values were generated if one or more of the features in the prediction model were mi -->
+    <mat-grid-tile colspan="2" rowspan="5">
+
+      <mat-grid-tile-header style="text-align: center; height: 200px;">
+        <h2 id=""><b>  The predicted distribution of building types in the multifamily building stock from 1945–1975. N/A values were generated if one or more of the features in the prediction model were mi</b> </h2>
+      </mat-grid-tile-header>
+
+      <img src="\assets\swedish\figure6.jpg" style="text-align: center; height: 50%;">
+      
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="5" >
+
+      <p>
+        Based on the models shown before, building type and possibility for additional insulation could be predicted for the entire multifamily building stock built between 1945 and 1975. First of all, it can be seen in the predicted distribution of building types that almost all of the multifamily buildings from this era can be categorised as slab blocks (69%). N/A values were generated if one or more of the features in the prediction model were missing.
+      </p>
+      
+    </mat-grid-tile>
+
+
+
+    <!-- Figure 7 -->
+      <!-- Decision tree -->
+    <mat-grid-tile colspan="2" rowspan="4">
+      
+      <mat-grid-tile-header style="text-align: center; height: 200px;">
+          <h2 id=""><b>Decision tree showing how four building characteristics can help determine a tailored energy</b></h2>
+      </mat-grid-tile-header>
+    
+      <img src="\assets\swedish\figure7.png" style="text-align: center; height: 90%; width: auto; padding-right: 5px;">
+
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="4" >
+
+      <p style="margin-left: 1%;">
+        This image provides an example of how enriched building databases can be applied to generate more accurate energy retrofitting strategies that can be used for policy purposes such as in the long-term renovation strategy, and also showcases how building-specific information can be used in decision trees for different energy retrofitting packages.<br>
+        This decision tree is based on the notions that energy retrofitting should be carried out along with other planned refurbishment measures in a “window of opportunity”, and that the overall objective is to transform existing buildings into nearly zero-energy buildings, in accordance with the objective of the long-term renovation strategy.<br>
+        Based on these notions, it can be seen in the model that recently renovated buildings cases where the window of opportunity has been missed, are excluded from energy retrofitting. Likewise, buildings that already fulfil the requirements of nearly zero-energy buildings (EPC rating A–C) are also excluded from energy retrofitting. Buildings that
+        have not been recently renovated and with the EPC rating D are allocated energy retrofitting package 1. <br>
+        Finally, buildings that have not been recently renovated and with an EPC rating between E–G are allocated energy retrofitting package 2 or 3 depending on their suitability for additional facade insulation, which is part of energy retrofitting
+        package 3.
+      </p>
+      
+    </mat-grid-tile>
+
+
+
+    <!-- Figures 8 -->
+    <mat-grid-tile colspan="4" rowspan="3">
+
+      <mat-grid-tile-header style="text-align: center; height: 200px;">
+        <h2 id=""><b> The figure shows yearly, cumulative: (a) Energy savings potential from the different energy retrofitting packages and (b) The associated cost</b> </h2>
+      </mat-grid-tile-header>
+
+      <img src="\assets\swedish\figure8a.jpg"  style="text-align: left; height: 50%;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="\assets\swedish\figure8b.jpg"  style="text-align: right; height: 50%;">
+      
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="2" >
+
+      <p style="padding-bottom: 5%">
+        Having everything into account the yearly national energy savings potential and the associated costs were estimated for a scenario where it is assumed that 50% of buildings that are not considered suitable for additional facade insulation are allocated Package 3 regardless of their unsuitability. This assumption represents a more realistic case with increased compromise between historical preservation and energy savings. The figures are based on the assumption that buildings are refurbished and energy retrofitted when they reach their expected service life of 50 years. The expected service life has been adjusted based on previous refurbishments, and pent-upped needs for refurbishment have been evenly distributed between year 2020 and 2030.
+      </p>
+      
+    </mat-grid-tile>
+
+</mat-grid-list>
+
+
+
+<br>
+<h1> CONCLUSIONS </h1>
+<br>
+<mat-grid-list cols="4" rows="50" rowHeight="160px" >
+  <mat-grid-tile colspan="4" rowspan="2" >
+    <p>
+      Based on 514 ocular observations collected from Google Street View, this paper has explored using machine learning methods to enrich building databases with new building characteristics relevant for estimating the energy retrofitting potential. With the aim to utilise these building characteristics to improve national estimations of energy savings potential, machine learning was used to predict the building type and suitability for additional facade insulation. This was done for all multifamily buildings in Sweden constructed between 1945 and 1975 based on the Swedish database of energy performance certificates. It was found that these building characteristics could be predicted with a model accuracy of 88.9% and 72.5% respectively, which was considered a sufficient Energies 2020, 13, 2574 19 of 22 level of accuracy for the intended applications. These results were finally used to exemplify the national energy savings potential in the multifamily building stock 1945–1975 under different assumptions.
+    </p>
+    
+  </mat-grid-tile>
+</mat-grid-list>
+

@@ -1,0 +1,306 @@
+<h1> 1. Overview at municipal level </h1>
+
+<h2> 1.1 Typology of the building stock at municipal level (number of households)</h2>
+<div class="gridTable">
+  
+  <button mat-icon-button [matMenuTriggerFor]="menu1_1">
+    <mat-icon>get_app</mat-icon>
+  </button>
+  <mat-menu #menu1_1="matMenu">
+    <button mat-menu-item (click)="downloadData('text%2Fcsv','1_1')">
+      <span>CSV</span>
+    </button>
+  </mat-menu>
+  <br>
+  <br>
+  <highcharts-chart id="container1_1"  style="width: 100%; height: 400px; display: block;" [Highcharts]="Highcharts" [options]="chartOptions1_1"></highcharts-chart>
+  <br>
+  <br>
+  <table datatable [dtOptions]="dtOptions" class="row-border hover">
+    <thead>
+      <tr>
+        <th *ngFor="let c of categoriesTable1_1"> {{ c.name }}</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of dataTable1_1">
+        <td>{{ d.period }}</td>
+        <td>{{ d.closed }}</td>
+        <td>{{ d.halfopen }}</td>
+        <td>{{ d.open }}</td>
+        <td>{{ d.apartment }}</td>
+        <td>{{ d.other }}</td>
+         <td>{{ d.total }}</td> 
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr *ngFor="let t of totalTable1_1">
+        <td><b>{{ t.period }}</b></td>
+        <td><b>{{ t.closed }}</b></td>
+        <td><b>{{ t.halfopen }}</b></td>
+        <td><b>{{ t.open }}</b></td>
+        <td><b>{{ t.apartment }}</b></td>
+        <td><b>{{ t.other }}</b></td>
+        <td><b>{{ t.total }}</b></td> 
+      </tr>
+    </tfoot>
+  </table>
+</div>
+  
+<br>
+<h2> 1.2 Number of housing units, average floor area, energy consumption and reduction potential per district </h2>
+<div class="gridTable">
+  <button mat-icon-button [matMenuTriggerFor]="menu1_2">
+    <mat-icon>get_app</mat-icon>
+  </button>
+  <mat-menu #menu1_2="matMenu">
+    <button mat-menu-item (click)="downloadData('text%2Fcsv','1_2')">
+      <span>CSV</span>
+    </button>
+  </mat-menu>
+  <br>
+  <br>
+  <highcharts-chart id="container1_2"  style="width: 100%; height: 400px; display: block;" [Highcharts]="Highcharts" [options]="chartOptions1_2"></highcharts-chart>
+  <br>
+  <br>
+  <table datatable [dtOptions]="dtOptions" class="row-border hover">
+    <thead>
+      <tr>
+        <th *ngFor="let c of categoriesTable1_2"> {{ c.name }}</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of dataTable1_2">
+        <td>{{ d.houses }}</td>
+        <td>{{ d.units }}</td>
+        <td>{{ d.averageArea }}</td>
+        <td>{{ d.totalArea }}</td>
+        <td>{{ d.specificConsumption }}</td>
+        <td>{{ d.totalConsumptionC }}</td>
+        <td>{{ d.totalConsumptionK }}</td>
+        <td>{{ d.reductionPotential }}</td> 
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr *ngFor="let t of totalTable1_2">
+        <td><b>{{ t.houses }}</b></td>
+        <td><b>{{ t.units }}</b></td>
+        <td><b>{{ t.averageArea }}</b></td>
+        <td><b>{{ t.totalArea }}</b></td>
+        <td><b>{{ t.specificConsumption }}</b></td>
+        <td><b>{{ t.totalConsumptionC }}</b></td>
+        <td><b>{{ t.totalConsumptionK }}</b></td>
+        <td><b>{{ t.reductionPotential }}</b></td> 
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<br>
+<h2> 1.3 Energy consumption and reduction potential by district (cartographic representation) </h2>
+<div class="gridTable">
+  <h3><b>Select sectors or districts to visualize them on the map</b></h3>
+  <mat-radio-group aria-label="Select an option" (change)="onMapChange($event)">
+    <mat-radio-button value="Sectors" checked="true">Sectors </mat-radio-button>&nbsp; 
+    <mat-radio-button value="Districts">Districts</mat-radio-button>
+  </mat-radio-group>
+  <br>
+  <br>
+  
+  <div id="map1_3">
+  </div>
+
+  <br>
+  <button id="button1" style="height: 25%; width: 15%;" (click)="setDefaultView()" mat-button>Default View</button>
+  
+  <br>
+</div>
+
+
+
+<h1> 2. Overview at the level of the district </h1>
+<div class="gridTable">
+  <h3><b>Here you can filter by districts. If you select more than one district, the results will be accumulated</b></h3>
+</div>
+  <mat-grid-list cols="2" rowHeight="150px" >
+  <div [formGroup]="beReel2">
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+          <mat-label>Table</mat-label>
+          <mat-select [(ngModel)]="tableSelected2" formControlName="table" (selectionChange)="onChange2('')">
+              <div *ngFor="let table of listTables2" >
+                  <mat-option  [value]="table.idTable">{{table.title}}</mat-option>
+                  
+              </div>
+              
+          </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+          <mat-label>Districts </mat-label>
+              <mat-select 
+              [(ngModel)] = "districtSelected"
+              [formControl]="districtControl"
+              (selectionChange)="onChange2('')" multiple>
+              <div *ngFor="let district of filtersTable2">
+              
+                  <mat-option [value]="district">{{district}}</mat-option>
+                
+                
+                  
+              </div>
+              
+          </mat-select>
+      </mat-form-field>
+  </mat-grid-tile>
+  </div>
+</mat-grid-list>
+
+
+<div class="gridTable">
+
+  <h2>{{ titleTable2 }}</h2>
+  <h3 id="alert2"><b>Please, select at least one district</b></h3>
+  <button mat-icon-button [matMenuTriggerFor]="menu2">
+    <mat-icon>get_app</mat-icon>
+  </button>
+  <mat-menu #menu2="matMenu">
+    <button mat-menu-item (click)="downloadData('text%2Fcsv','2')">
+      <span>CSV</span>
+    </button>
+  </mat-menu>
+  
+  <div id="allTable2">
+    <highcharts-chart id="container2"  style="width: 100%; height: 400px; display: block;" [Highcharts]="Highcharts" [options]="chartOptions2"></highcharts-chart>
+    <br>
+    <br>
+    <table datatable [dtOptions]="dtOptions" class="row-border hover">
+      <thead>
+        <tr>
+          <th *ngFor="let c of categoriesTable1_1"> {{ c.name }}</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of dataTable2_1">
+          <td>{{ d.period }}</td>
+          <td>{{ d.closed }}</td>
+          <td>{{ d.halfopen }}</td>
+          <td>{{ d.open }}</td>
+          <td>{{ d.apartment }}</td>
+          <td>{{ d.other }}</td>
+            <td>{{ d.total }}</td> 
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr *ngFor="let t of totalTable2_1">
+          <td><b>{{ t.period }}</b></td>
+          <td><b>{{ t.closed }}</b></td>
+          <td><b>{{ t.halfopen }}</b></td>
+          <td><b>{{ t.open }}</b></td>
+          <td><b>{{ t.apartment }}</b></td>
+          <td><b>{{ t.other }}</b></td>
+          <td><b>{{ t.total }}</b></td> 
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+<br>
+<br>
+<h1> 3. Overview at statistical sector level </h1>
+<div class="gridTable">
+  <h3><b>Here you can filter by sectors. If you select more than one sector, the results will be accumulated</b></h3>
+</div>
+
+<mat-grid-list cols="2" rowHeight="150px" >
+  <div [formGroup]="beReel3">
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+          <mat-label>Table</mat-label>
+          <mat-select [(ngModel)]="tableSelected3" formControlName="table" (selectionChange)="onChange3('')">
+              <div *ngFor="let table of listTables3" >
+                  <mat-option  [value]="table.idTable">{{table.title}}</mat-option>
+                  
+              </div>
+              
+          </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+          <mat-label>Sectors </mat-label>
+              <mat-select 
+              [(ngModel)] = "sectorSelected"
+              [formControl]="sectorControl"
+              (selectionChange)="onChange3('')" multiple>
+              <div *ngFor="let sector of filtersTable3">
+                  <mat-option [value]="sector" checked>{{sector}}</mat-option>
+              </div>
+              
+          </mat-select>
+      </mat-form-field>
+  </mat-grid-tile>
+  </div>
+</mat-grid-list>
+
+
+
+<div class="gridTable">
+  <h2> <br>{{ titleTable3 }}</h2>
+  <br>
+  <button mat-icon-button [matMenuTriggerFor]="menu3">
+    <mat-icon>get_app</mat-icon>
+  </button>
+  <mat-menu #menu3="matMenu">
+    <button mat-menu-item (click)="downloadData('text/csv','3')">
+      <span>CSV</span>
+    </button>
+  </mat-menu>
+  <h3 id="alert3"><b>Please, select at least one sector</b></h3>
+  <div id="allTable3">
+    <highcharts-chart id="container3"  style="width: 100%; height: 400px; display: block;" [Highcharts]="Highcharts" [options]="chartOptions3"></highcharts-chart>
+    <br>
+    <br>
+    <table datatable [dtOptions]="dtOptions" class="row-border hover">
+      <thead>
+        <tr>
+          <th *ngFor="let c of categoriesTable1_1"> {{ c.name }}</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of dataTable3_1">
+          <td>{{ d.period }}</td>
+          <td>{{ d.closed }}</td>
+          <td>{{ d.halfopen }}</td>
+          <td>{{ d.open }}</td>
+          <td>{{ d.apartment }}</td>
+          <td>{{ d.other }}</td>
+            <td>{{ d.total }}</td> 
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr *ngFor="let t of totalTable3_1">
+          <td><b>{{ t.period }}</b></td>
+          <td><b>{{ t.closed }}</b></td>
+          <td><b>{{ t.halfopen }}</b></td>
+          <td><b>{{ t.open }}</b></td>
+          <td><b>{{ t.apartment }}</b></td>
+          <td><b>{{ t.other }}</b></td>
+          <td><b>{{ t.total }}</b></td> 
+        </tr>
+      </tfoot>
+    </table>
+    
+  </div>
+</div>
+
+
+

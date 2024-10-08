@@ -1,0 +1,147 @@
+<header id="allNav" *ngIf="isVisible">
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <a mat-icon href="https://builthub.eu/">
+        <mat-icon
+          class="mat-toolbar-web-icon"
+          svgIcon="builthub-logo-orange"
+          aria-hidden="true"
+        ></mat-icon>
+      </a>
+      <span class="menu-spacer"></span>
+      <a mat-menu-item [routerLink]="'/'">Home</a>
+      <a mat-menu-item [matMenuTriggerFor]="datalibrary">Data Library</a>
+      <a mat-menu-item [routerLink]="'/dashboard'">Dashboards</a>
+      <a mat-menu-item [matMenuTriggerFor]="help">Help</a>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <a mat-menu-item [routerLink]="'/'" (click)="logout()">Logout</a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <mat-menu #datalibrary="matMenu" class="mat-menu">
+    <a
+      mat-menu-item
+      href="localhost/webvowl_1.1.7/#iri=http://data.builthub.eu/ontology/cbhsv.ttl"
+      target="_blank"
+      >Ontology Viewer</a
+    >
+    <a mat-menu-item href="./assets/catalog/datacatalog.html" target="_blank"
+      >Data Catalog</a
+    >
+    <a mat-menu-item [routerLink]="'/sparql-editor'">SPARQL Editor</a>
+    <a mat-menu-item [routerLink]="'/upload-data'">Upload Dataset</a>
+  </mat-menu>
+  <mat-menu #help="matMenu" class="mat-menu">
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/docs/User_Guide.pdf"
+      target="_blank"
+      >BuiltHub's Users Guide</a
+    >
+    <h4>Video tutorials</h4>
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg01-Introduction.mp4"
+      target="_blank"
+      >Introduction</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_01-Login_Logout.mp4"
+      target="_blank"
+      >How to access the platform</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_02-Ontology.mp4"
+      target="_blank"
+      >The ontology viewer</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_03-Data_Catalog.mp4"
+      target="_blank"
+      >The data catalog of BuiltHub</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_04-SPARQL_Editor.mp4"
+      target="_blank"
+      >How to query the data hub</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_05-Upload.mp4"
+      target="_blank"
+      >Upload datasets</a
+    >
+    <a mat-menu-item [matMenuTriggerFor]="help_dashboards">The dashboards</a>
+
+    <h4>Integration</h4>
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/docs/Builthub_Integration_Services.pdf"
+      target="_blank"
+      >Integration Guide</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/is01_Integration_OData.mp4"
+      target="_blank"
+      >Integration using the ODATA
+    </a>
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/is02_Integration_CSV.mp4"
+      target="_blank"
+      >Integration using the REST API
+    </a>
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/is03_Integration_Stored_Queries.mp4"
+      target="_blank"
+      >Integration using your own queries</a
+    >
+    <h4 class="mat-divider">Help us improve</h4>
+    <a mat-menu-item [routerLink]="'/feedback'">Feedback</a>
+  </mat-menu>
+  <mat-menu #help_dashboards="matMenu" class="mat-menu">
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_00-Intro_Dashboards.mp4"
+      target="_blank"
+      >An introduction</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_01-CO2_Emissions.mp4"
+      target="_blank"
+      >CO2 emissions</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_02-Energy.mp4"
+      target="_blank"
+      >Energy consumption</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_05-Advanced_(Building_Areas).mp4"
+      target="_blank"
+      >Building areas</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_06-Comparison.mp4"
+      target="_blank"
+      >Energy consumption comparison</a
+    >
+    <a
+      mat-menu-item
+      href="http://data.builthub.eu/media/video/vg04_06_07-Solar_Irradiance.mp4"
+      target="_blank"
+      >Solar irradiance</a
+    >
+  </mat-menu>
+</header>

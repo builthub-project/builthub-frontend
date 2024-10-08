@@ -1,0 +1,195 @@
+<mat-grid-list cols="4" rows="15" rowHeight="125px">
+  <div [formGroup]="emissionsForm">
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-form-field appearance="fill">
+        <mat-label>Country</mat-label>
+        <mat-select
+          [(ngModel)]="selectedCountry"
+          formControlName="country"
+          (selectionChange)="onFilterChange()"
+          multiple
+        >
+          <div *ngFor="let country of countriesList">
+            <mat-option *ngIf="country != ''" [value]="country">{{
+              country
+            }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile
+      id="table1"
+      colspan="3"
+      rowspan="5"
+      style="height: 100%; width: 100%"
+    >
+      <div class="container">
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon>get_app</mat-icon>
+        </button>
+        <mat-menu #menu2="matMenu">
+          <button mat-menu-item (click)="downloadData('text%2Fcsv')">
+            <span>CSV</span>
+          </button>
+        </mat-menu>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="downloadData('text%2Fcsv')">
+            <span>CSV</span>
+          </button>
+        </mat-menu>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>NUTS</th>
+              <th>Sector</th>
+              <th>Indicator Name</th>
+              <th>Period</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor="
+                let data of dataTable1
+                  | paginate
+                    : { itemsPerPage: 13, currentPage: p, totalItems: total }
+              "
+            >
+              <td>{{ data.country }}</td>
+              <td>{{ data.nuts }}</td>
+              <td>{{ data.sector }}</td>
+              <td>{{ data.indicator }}</td>
+              <td>{{ data.period }}</td>
+              <td>{{ data.value }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="pagination">
+          <pagination-controls
+            (pageChange)="pageChangeEvent($event)"
+          ></pagination-controls>
+        </div>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-form-field appearance="fill">
+        <mat-label>Groups</mat-label>
+        <mat-select
+          formControlName="country"
+          (selectionChange)="updateCountry($event)"
+        >
+          <mat-option value=" "></mat-option>
+          <mat-option value="27">EU27</mat-option>
+          <mat-option value="28">EU28</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-form-field appearance="fill">
+        <mat-label>Years</mat-label>
+        <mat-select
+          [(ngModel)]="selectedYear"
+          formControlName="year"
+          (selectionChange)="onFilterChange()"
+          multiple
+        >
+          <div *ngFor="let year of yearsList">
+            <mat-option *ngIf="year != ''" [value]="year">{{
+              year
+            }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-form-field appearance="fill">
+        <mat-label>Indicator Name</mat-label>
+        <mat-select
+          [(ngModel)]="selectedIndicator"
+          formControlName="indicator"
+          (selectionChange)="onFilterChange()"
+          multiple
+        >
+          <div *ngFor="let element of indicatorList">
+            <mat-option *ngIf="element != ''" [value]="element">{{
+              element
+            }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-form-field appearance="fill">
+        <mat-label>Sector</mat-label>
+        <mat-select
+          [(ngModel)]="selectedSector"
+          formControlName="sector"
+          (selectionChange)="onFilterChange()"
+          multiple
+        >
+          <div *ngFor="let sector of sectorList">
+            <mat-option *ngIf="sector != ''" [value]="sector">{{
+              sector
+            }}</mat-option>
+          </div>
+        </mat-select>
+      </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="1" style="height: 100%; width: 100%">
+      <div class="container">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Data Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                EDGAR (Emissions Database for Global Atmospheric Research) CO2
+                Emissions
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2" rowspan="4">
+      <highcharts-chart
+        id="container-pie"
+        [Highcharts]="Highcharts"
+        [options]="chartOptionsPie"
+      ></highcharts-chart>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="5" style="height: 90%; width: 90%">
+      <div id="map1"></div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="3">
+      <highcharts-chart
+        id="container-column"
+        [Highcharts]="Highcharts"
+        [options]="chartOptionsColumn"
+      ></highcharts-chart>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="1">
+      <button
+        id="button1"
+        style="height: 30%; width: 30%"
+        (click)="setDefaultView()"
+        mat-button
+      >
+        Default View
+      </button>
+    </mat-grid-tile>
+  </div>
+</mat-grid-list>

@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>BUILTHUB Data Catalog</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descripción de la página…">
+  <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+	<div class="dataset-container">
+		<h2>GISCO - LAU evolution</h2>
+		<p>This dataset contains LAU information of different years by GISCO.</p>
+		
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset metadata</caption>
+		<tr class="trborder">
+			<th class="table-header">Geo Info</th>
+			<th class="table-header">NUTS</th>
+			<th class="table-header">Measured Elements</th>
+			<th class="table-header">Time Ranges</th>
+		</tr>
+		<tr class="trborder">
+			<td>Countries European Union</td>
+			<td>NUTS 5 Level</td>
+			<td>Population, Population density, Polygon dimensions</td>
+			<td>Divided by years starting in 2011 until 2020</td>
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<table class="default" >
+		<caption class="table-title">Dataset database predicates</caption>
+		<tr>
+			<th class="table-header">Title</th>
+			<th class="table-header">Description</th>
+			<th class="table-header">Predicate (Fields' name)</th>
+			<th class="table-header">Range/Data Type</th>
+			<th class="table-header">Cardinality</th>
+			<th class="table-header">Content</th>
+		</tr>
+		<tr>
+			<th class="color_black">Record Type</th>
+			<td>Defines the type of the record. This type must   
+			be defined in a known ontology. Usually, the ontology
+			is specified with a prefix.                          </td>
+			<td>rdf:type</td>
+			<td>skos:Concept</td>
+			<td>1..1</td>
+			<td>skos:Concept</td>
+		</tr>
+		<tr>
+			<th class="color_black">Record Key</th>
+			<td>The primary key of the record.</td>
+			<td>dc:identifier / skos:notation</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>"PL_318340405"</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">Temporal Coverage</th>
+		</tr>
+		<tr>
+			<td>Refers to a temporal period that the Dataset    
+			covers. It is defined as an interval of time that is
+			defined by its start and end dates.                 </td>
+			<td>dcterms:temporal</td>
+			<td>dcterms:PeriodOfTime</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>This property contains the start of the period.</td>
+			<td>dcat:startDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"2013-01-01"^^xsd:date</td>
+		</tr>
+		<tr>
+			<td>This property contains the end of the period.</td>
+			<td>dcat:endDate</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"2013-12-31"^^xsd:date</td>
+		</tr>
+		<tr>
+			<th class="color_black">Belongs to Dataset</th>
+			<td>The dataset of this record</td>
+			<td>skos:broader</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>nuts:PL</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="4">Spatial Coverage</th>
+		</tr>
+		<tr>
+			<td>This property refers to a geographic region that 
+			is covered by the Dataset. The EU Vocabularies Name   
+			Authority Lists must be used for continents, countries
+			and places that are in those lists.                 </td>
+			<td>geo:hasGeometry</td>
+			<td>geo:Geometry</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>This property is the polygon of the lau in WKT format.</td>
+			<td>geo:asWKT</td>
+			<td>geo:wktLiteral</td>
+			<td>1..1</td>
+			<td>"POLYGON((22.953671 50.073808,22.9236 49.989593,22.864683 50.001254,
+			22.857248 50.002607,22.860314 49.985801,22.844792 49.965628,22.829249 49.964928,
+			22.816118 49.976728,22.811939 49.983033,22.796306 49.990347,22.773155 49.99629,
+			22.775555 50.002145,22.784451 50.008673,22.775144 50.015759,22.807993 50.034913,
+			22.899175 50.05814,22.910709 50.062953,22.912545 50.06779,22.919797 50.068139))"</td>
+		</tr>
+		<tr>
+			<td>This property is the dimensions of the LAU.</td>
+			<td>geo:dimension</td>
+			<td>xsd:float</td>
+			<td>1..1</td>
+			<td>"137.99943083"</td>
+		</tr>
+		<tr>
+			<th class="color_black" id="alinear" rowspan="5">Statistics</th>
+		</tr>
+		<tr>
+			<td>Indicates if the information is inside a LAU boundaries.                 </td>
+			<td>cbhsv:hasStatistic</td>
+			<td>cbhsv:hasStatistic</td>
+			<td>1..n</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>Population of the LAU.</td>
+			<td>cbhsv:statsPopulation</td>
+			<td>cbhsv:statsPopulation</td>
+			<td>1..1</td>
+			<td>6989</td>
+		</tr>
+		<tr>
+			<td>Population density of the LAU.</td>
+			<td>cbhsv:statsPopulationDensity</td>
+			<td>rdfs:Literal (xsd:date)</td>
+			<td>1..1</td>
+			<td>"50.64513642"</td>
+		</tr>
+		<tr>
+			<td>Year of reference for the statistics.</td>
+			<td>cbhsv:statsRefYear</td>
+			<td>cbhsv:statsRefYear</td>
+			<td>1..1</td>
+			<td>2013</td>
+		</tr>
+		<tr>
+			<th class="color_black">NUTS 5</th>
+			<td>Indicates the level of NUTS.</td>
+			<td>ns5:level</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>0..1</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<th class="color_black">Scheme</th>
+			<td>The scheme of the LAU information in Builthub's ecosystem.</td>
+			<td>skos:inScheme</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>http://data.builthub.eu/lau/scheme/2013</td>
+		</tr>
+		<tr>
+			<th class="color_black">LAU name</th>
+			<td>Name of the LAU.</td>
+			<td>skos:prefLabel</td>
+			<td>rdfs:Literal (xsd:string)</td>
+			<td>1..1</td>
+			<td>Laszki</td>
+		</tr>
+		<tr>
+			<th class="color_black">Status</th>
+			<td>Status of the LAU.</td>
+			<td>adms:status</td>
+			<td>IRI</td>
+			<td>1..1</td>
+			<td>http://publications.europa.eu/resource/authority/concept-status/CURRENT</td>
+		</tr>
+		</table>
+		
+		<br>
+		
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

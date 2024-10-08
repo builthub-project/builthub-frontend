@@ -1,0 +1,147 @@
+<h1 style="text-align: center">Feedback</h1>
+<p>
+  Welcome to the Feedback section of the BuiltHub platform. Below you may post a
+  request and upload an explanatory image to tell us what change you would like
+  to see in the BuiltHub platform. Your request will help us improve the
+  platform.
+</p>
+<mat-grid-list
+  class="feedback-container"
+  [ngClass]="feedbackPageClass"
+  mat-grid-list
+  [cols]="2"
+  rowHeight="2:1"
+  style="margin: 0 15%"
+>
+  <mat-grid-tile class="feedback-form feedback-main">
+    <div class="container-form internalMatGrid">
+      <mat-grid-list mat-grid-list [cols]="1" rowHeight="150px">
+        <form
+          *ngIf="showForm"
+          [formGroup]="feedBackForm"
+          (ngSubmit)="onSubmit()"
+        >
+          <mat-grid-tile>
+            <mat-form-field appearance="fill" class="section">
+              <mat-label>Section</mat-label>
+              <mat-select formControlName="section">
+                <div *ngFor="let section of sections">
+                  <mat-option *ngIf="section != ''" [value]="section">{{
+                    section
+                  }}</mat-option>
+                </div>
+              </mat-select>
+              <mat-error *ngIf="feedBackForm.controls['section'].errors"
+                >Section is required</mat-error
+              >
+            </mat-form-field>
+          </mat-grid-tile>
+
+          <mat-grid-tile class="message-box">
+            <mat-form-field appearance="fill">
+              <mat-label>Message</mat-label>
+              <textarea
+                matInput
+                floatLabel="never"
+                row="10"
+                formControlName="message"
+                style="color: black; resize: none"
+                class="message-text"
+              ></textarea>
+              <mat-error
+                class="message-error"
+                *ngIf="feedBackForm.controls['message'].hasError('required')"
+                >Message is required</mat-error
+              >
+              <mat-error
+                *ngIf="feedBackForm.controls['message'].hasError('maxlength')"
+                >Your message must have maximum 1000 words</mat-error
+              >
+            </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile class="upload">
+            <div class="w100 upload-section">
+              <div class="upload-content">
+                <label class="d-inline-block">Image Upload</label>
+                <input
+                  type="file"
+                  id="fileInput"
+                  (change)="selectFile($event)"
+                  name="fileInput"
+                  formControlName="fileupload"
+                  matinput
+                  class="d-inline-block upload-input"
+                  accept="image/*"
+                />
+                <mat-icon
+                  id="icon"
+                  class="d-inline-block upload-icon"
+                  svgIcon="upload"
+                ></mat-icon>
+              </div>
+
+              <div *ngIf="showName" class="showName">
+                <span>{{ fileName }}</span
+                ><button class="delete-button" (click)="deleteFile()">
+                  &times;
+                </button>
+              </div>
+              <mat-error *ngIf="invalidFile"
+                >The maximum size of the image that you can upload is
+                5mb</mat-error
+              >
+            </div>
+          </mat-grid-tile>
+
+          <mat-grid-tile class="submit">
+            <div class="w100">
+              <button
+                id="submit-button"
+                mat-raised-button
+                type="submit"
+                class="upload-button"
+              >
+                Submit
+              </button>
+            </div>
+          </mat-grid-tile>
+        </form>
+
+        <div *ngIf="showAlert" class="alert" style="text-align: center">
+          <strong>Thank you!</strong> Your feedback is submitted successfully.
+        </div>
+        <div
+          *ngIf="showAlertError"
+          class="alert-error"
+          style="text-align: center"
+        >
+          <strong>Upload Error</strong> There is a Problem with the Feedback
+          upload. Please send your feedback later.
+        </div>
+        <div *ngIf="showAlert" class="sendbackform">
+          <span (click)="closeAlert()"
+            >&#8592; Return to the Feedback Form</span
+          >
+        </div>
+        <div *ngIf="showAlertError" class="sendbackform">
+          <span (click)="closeAlert()"
+            >&#8592; Return to the Feedback Form</span
+          >
+        </div>
+      </mat-grid-list>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile class="feedback-picture feedback-main">
+    <picture>
+      <source
+        media="(min-width:0px)"
+        srcset="././assets/images/buildhub-feedback-new.jpg"
+      />
+      <img
+        mat-card-image
+        src=""
+        alt="Photo of buildings for Buildhub feedback"
+      />
+    </picture>
+  </mat-grid-tile>
+</mat-grid-list>

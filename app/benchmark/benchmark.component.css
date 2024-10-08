@@ -1,0 +1,73 @@
+h1 {
+  color: #ffa84a;
+  background-color: #104233;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+p,
+ul {
+  color: black;
+  font-size: 22px;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: normal;
+  text-align: justify;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.container-form {
+  margin: 0 15% 50px;
+}
+
+.container-form .mat-grid-list {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.container-form .mat-form-field {
+  width: 90%;
+  color: #000;
+}
+
+.container-form .compare-button {
+  position: absolute;
+  left: -20px !important;
+  top: unset !important;
+  bottom: -70px;
+  width: 280px !important;
+  height: 52px !important;
+}
+
+.container-form .compare-button button {
+  padding: 5px 60px;
+  background: #123e31 !important;
+  color: #f8ad3b !important;
+  font-size: 20px;
+}
+
+.mat-grid-tile-header {
+  color: #ffa84a;
+  text-align: center;
+  font-size: 20px;
+}
+
+#submit-button {
+  background-color: rgb(18, 62, 49);
+  color: white;
+}
+
+.mat-grid-tile .mat-grid-tile-header {
+  background: transparent;
+  color: #ffa84a;
+  display: block;
+}

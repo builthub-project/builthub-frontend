@@ -1,0 +1,18 @@
+#eufooter {
+  background: #d9d9da;
+}
+#eufooter .container-footer {
+  margin: 0 15% 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#eufooter .container-footer img,
+#eufooter .container-footer span {
+  margin: 0 15px;
+}
+#eufooter .container-footer span {
+  color: #000;
+}

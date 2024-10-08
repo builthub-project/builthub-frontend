@@ -1,0 +1,788 @@
+{
+  "head": {
+    "vars": [
+      "location",
+      "val",
+      "bage"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "257.6199"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "264.16724"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "198.77652"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "148.37595"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "France"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "142.41696"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "266.38495"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "221.41637"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "192.6279"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "141.38072"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Germany"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "133.19406"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "229.10394"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "207.85284"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "141.59157"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "144.03906"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ireland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "127.73519"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "228.19409"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "220.53511"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "212.1573"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "178.78427"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Italy"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "156.16614"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "268.7535"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "208.87254"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "196.49925"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "183.66562"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Poland"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "148.60446"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Benelux: BE, NL, LU"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "906.7477"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Benelux: BE, NL, LU"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "703.17145"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Benelux: BE, NL, LU"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "600.7983"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Benelux: BE, NL, LU"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "411.7481"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Benelux: BE, NL, LU"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "381.20087"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Iberia: ES, PT, MT"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "414.40112"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Iberia: ES, PT, MT"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "397.97488"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Iberia: ES, PT, MT"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "354.4533"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Iberia: ES, PT, MT"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "338.8952"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Iberia: ES, PT, MT"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "282.2331"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Nordics: DK, EE, FI, LT, LV, SE"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1649.0502"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Nordics: DK, EE, FI, LT, LV, SE"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1389.6952"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Nordics: DK, EE, FI, LT, LV, SE"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1194.8838"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Nordics: DK, EE, FI, LT, LV, SE"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1056.004"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Nordics: DK, EE, FI, LT, LV, SE"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1019.38306"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Other central Europe: AT, CZ, HU, SK, SI"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1221.6372"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Other central Europe: AT, CZ, HU, SK, SI"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "1085.8092"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Other central Europe: AT, CZ, HU, SK, SI"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "934.77496"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Other central Europe: AT, CZ, HU, SK, SI"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "855.7435"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Other central Europe: AT, CZ, HU, SK, SI"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "779.5056"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Southeast Europe: BG, HR, CY,EL, RO"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "746.12115"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1945-1969"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Southeast Europe: BG, HR, CY,EL, RO"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "635.93176"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1970-1979"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Southeast Europe: BG, HR, CY,EL, RO"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "590.81934"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1980-1989"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Southeast Europe: BG, HR, CY,EL, RO"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "570.25757"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "1990-1999"
+        }
+      },
+      {
+        "location": {
+          "type": "literal",
+          "value": "Southeast Europe: BG, HR, CY,EL, RO"
+        },
+        "val": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#float",
+          "type": "literal",
+          "value": "437.54572"
+        },
+        "bage": {
+          "type": "literal",
+          "value": "2000-2010"
+        }
+      }
+    ]
+  }
+}

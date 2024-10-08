@@ -1,0 +1,139 @@
+<h1>Benchmark Your Building</h1>
+<p>
+  Welcome to the Benchmark section of the BuiltHub platform. Below you may
+  select and provide the criteria matching your building’s specifications to
+  compare against our datasets.
+</p>
+<!-- Benchmark Form -->
+<div class="container-form">
+  <mat-grid-list
+    mat-grid-list
+    [cols]="breakpoint"
+    rowHeight="90px"
+    (window:resize)="onResize($event)"
+  >
+    <form [formGroup]="benchmarkForm" (ngSubmit)="onSubmit()">
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Country</mat-label>
+          <mat-select formControlName="country">
+            <div *ngFor="let country of countries">
+              <mat-option *ngIf="country != ''" [value]="country">{{
+                country
+              }}</mat-option>
+            </div>
+          </mat-select>
+          <mat-error *ngIf="benchmarkForm.controls['country'].errors"
+            >Country is required</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Sector</mat-label>
+          <mat-select
+            formControlName="sector"
+            (selectionChange)="onChangeSector($event)"
+          >
+            <div *ngFor="let sector of sectors">
+              <mat-option *ngIf="sector != ''" [value]="sector">{{
+                sector
+              }}</mat-option>
+            </div>
+          </mat-select>
+          <mat-error *ngIf="benchmarkForm.controls['sector'].errors"
+            >Sector is required</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Building Type</mat-label>
+          <mat-select formControlName="buildingtype">
+            <div *ngFor="let buildingtype of buildingtypes">
+              <mat-option *ngIf="buildingtype != ''" [value]="buildingtype">{{
+                buildingtype
+              }}</mat-option>
+            </div>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Construction period</mat-label>
+          <mat-select formControlName="year">
+            <div *ngFor="let year of years">
+              <mat-option *ngIf="year != ''" [value]="year">{{
+                year
+              }}</mat-option>
+            </div>
+          </mat-select>
+          <mat-error *ngIf="benchmarkForm.controls['year'].errors"
+            >Construction period is required</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Energy Use</mat-label>
+          <mat-select formControlName="energyuse">
+            <div *ngFor="let energyuse of energyList">
+              <mat-option *ngIf="energyuse != ''" [value]="energyuse">{{
+                energyuse
+              }}</mat-option>
+            </div>
+          </mat-select>
+          <mat-error *ngIf="benchmarkForm.controls['energyuse'].errors"
+            >Energy Use is required</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label>Energy Type</mat-label>
+          <mat-select formControlName="energytype">
+            <div *ngFor="let energytype of energyTypeList">
+              <mat-option *ngIf="energytype != ''" [value]="energytype">{{
+                energytype
+              }}</mat-option>
+            </div>
+          </mat-select>
+          <mat-error *ngIf="benchmarkForm.controls['energytype'].errors"
+            >Energy Type is required</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field appearance="fill">
+          <mat-label
+            >Average Annual Energy Performance in kWh/(m2 yr)</mat-label
+          >
+          <input type="number" matInput formControlName="average" />
+          <mat-error
+            *ngIf="benchmarkForm.controls['average'].hasError('required')"
+            >Average Annual Energy Performance is required</mat-error
+          >
+          <mat-error
+            *ngIf="benchmarkForm.controls['average'].hasError('invalidNumber')"
+            >Average Annual Energy Performance must be between 10-1000 kWh/(m2
+            yr)</mat-error
+          >
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile class="compare-button">
+        <button id="submit-button" mat-raised-button type="submit">
+          Compare
+        </button>
+      </mat-grid-tile>
+    </form>
+  </mat-grid-list>
+
+  <!-- Benchmark charts -->
+  <highcharts-chart
+    id="benchmark-chart"
+    style="width: 100%; height: 400px; display: block; margin-top: 140px"
+    [Highcharts]="Highcharts"
+    [options]="benchmarkChartOptions"
+  ></highcharts-chart>
+</div>

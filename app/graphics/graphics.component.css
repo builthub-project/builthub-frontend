@@ -1,0 +1,27 @@
+#allNav{
+    display:block;
+    height: 1% !important;
+}
+
+#allFooter{
+    display:block;   
+}
+
+h1{
+    color:#FFA84A ;
+    background-color: #104233;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 35px;
+    
+
+}
+
+.header{
+    height: 1% !important;
+}
+
+.highcharts-point{
+    color: orange;
+    fill: orange;
+}

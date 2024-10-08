@@ -1,0 +1,228 @@
+::ng-deep.mat-dialog-container {
+    width: 600px;
+    height: 380px;
+    overflow: inherit;
+}
+
+.mat-dialog-title{
+    color: #FFA84A;
+    text-align: center;
+    font-family: "Hind Siliguri", Helvetica, Arial, sans-serif;
+    background-color: #123E31 ;
+    margin-top: -40px;
+    margin-right: -24px;
+    margin-left: -24px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 35px;
+}
+
+::ng-deep.mat-dialog-content {
+    overflow: inherit;
+}
+
+form{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+th{
+    color: #838383;
+    padding-right: 20px;
+    font-size: 20px;
+    width: 100px;
+}
+
+tr{
+    height: 45px;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#idLabel{
+    padding-bottom: 10px;
+}
+
+#invalid{
+    margin-top: 5px;
+}
+
+textarea{
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+}
+
+button{
+    background-color: #123E31;
+    color: #FFA84A;
+    font-size: 20px;
+}
+
+.mat-dialog-actions{
+    margin-left: 200px;
+}
+
+
+/*  RESPONSIVE DESIGN  */
+/* 4K w3840 h2160 */
+@media only screen and (min-width: 3600px) {
+
+    ::ng-deep.mat-dialog-container {
+        width: 900px;
+        height: 700px;
+        overflow: inherit;
+    }
+    
+    .mat-dialog-title{
+        color: #FFA84A;
+        text-align: center;
+        font-family: "Hind Siliguri", Helvetica, Arial, sans-serif;
+        background-color: #123E31 ;
+        margin-top: -40px;
+        margin-right: -24px;
+        margin-left: -24px;
+        height: 100px;
+        line-height: 90px;
+        font-size: 60px;
+    }
+    
+    ::ng-deep.mat-dialog-content {
+        overflow: inherit;
+    }
+    
+    form{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    th{
+        color: #838383;
+        padding-right: 20px;
+        font-size: 40px;
+        width: 100px;
+    }
+    
+    tr{
+        height: 60px;
+    }
+    
+    input{
+        width: 550px;
+        height: 40px;
+        font-size: 40px;
+    }
+    
+    #idLabel{
+        padding-bottom: 20px;
+    }
+    
+    #invalid{
+        margin-top: 20px;
+    }
+    
+    textarea{
+        width: 550px;
+        height: 300px;
+        font-size: 20px;
+    }
+    
+    button{
+        background-color: #123E31;
+        color: #FFA84A;
+        font-size: 40px;
+        width: 200px;
+        height: 60px;
+    }
+    
+    .mat-dialog-actions{
+        margin-left: 200px;
+    }
+
+}
+
+/* 8K w7680 h4320 */
+@media only screen and (min-width: 6000px) {
+
+    ::ng-deep.mat-dialog-container {
+        width: 900px;
+        height: 700px;
+        overflow: inherit;
+    }
+    
+    .mat-dialog-title{
+        color: #FFA84A;
+        text-align: center;
+        font-family: "Hind Siliguri", Helvetica, Arial, sans-serif;
+        background-color: #123E31 ;
+        margin-top: -40px;
+        margin-right: -24px;
+        margin-left: -24px;
+        height: 100px;
+        line-height: 90px;
+        font-size: 60px;
+    }
+    
+    ::ng-deep.mat-dialog-content {
+        overflow: inherit;
+    }
+    
+    form{
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    th{
+        color: #838383;
+        padding-right: 20px;
+        font-size: 40px;
+        width: 100px;
+    }
+    
+    tr{
+        height: 60px;
+    }
+    
+    input{
+        width: 550px;
+        height: 40px;
+        font-size: 40px;
+    }
+    
+    #idLabel{
+        padding-bottom: 20px;
+    }
+    
+    #invalid{
+        margin-top: 20px;
+    }
+    
+    textarea{
+        width: 550px;
+        height: 300px;
+        font-size: 20px;
+    }
+    
+    button{
+        background-color: #123E31;
+        color: #FFA84A;
+        font-size: 40px;
+        width: 200px;
+        height: 60px;
+    }
+    
+    .mat-dialog-actions{
+        margin-left: 200px;
+    }
+
+
+}
+
+
